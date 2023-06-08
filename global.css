@@ -1,0 +1,77 @@
+/** Formatting **/
+html{
+	overflow: auto;
+	overflow-x: hidden;
+}
+@font-face {
+	font-family: OCR;
+	src: url(OCRAEXT.TTF);
+}
+body {
+	font-family: OCR;
+    margin-bottom: 0;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+a{
+	font-family: OCR;
+    margin-bottom: 0;
+}
+
+
+/** Layout **/
+article.games {
+  float: right;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 53%;
+  background-color: #f1f1f1;
+}
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+aside {
+	background-color: #e6e6e6;
+}
+aside h2 {
+	padding-top: 15px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+aside p {
+	padding-bottom: 10px;
+	font-size: 20px;
+}
+aside.social {
+	background-color: #d9d9d9;
+}
+aside h3 {
+	padding-left: 100px;
+}
+
+
+/** Footer **/
+footer {
+	padding: 3px;
+	background-color: black;
+	color: white;
+	margin-top: auto;
+}
+
+.footerclass{
+	background-color: black;
+	padding-right: 15px;
+}
+.footerimg {
+	border-radius: 25px;
+	background-color: white;
+	padding-right: 3px;
+}
