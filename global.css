@@ -64,6 +64,8 @@ footer {
 	background-color: black;
 	color: white;
 	margin-top: auto;
+	margin-left: -8px;
+	margin-right: -8px;
 }
 
 .footerclass{
