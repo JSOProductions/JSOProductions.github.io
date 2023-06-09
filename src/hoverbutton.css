@@ -78,3 +78,23 @@
   background-color: #fa5c5c;
   color: white;
 }
+
+.contact {
+  background-color: lightgray;
+  color: white; 
+  border: 4px solid gray;
+  border-radius: 4px;
+}
+
+.contact:hover {
+  background-color: gray;
+  color: white;
+}
+
+.contact a {
+  color: black;
+}
+
+.contact a:hover {
+  color: white;
+}
