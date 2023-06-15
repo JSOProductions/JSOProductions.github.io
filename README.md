@@ -1,5 +1,4 @@
 # JSOProductions.github.io
-JSO Productions
 Welcome to JSO Productions! This is the official repository for our website, JSO Productions. Here, you can find all the necessary information, resources, and updates related to our projects and services.
 
 About JSO Productions
