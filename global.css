@@ -32,7 +32,7 @@ p {
 article.games {
   float: right;
   padding: 20px;
-  width: 70%;
+  width: 50%;
   background-color: #f1f1f1;
 }
 article {
@@ -64,7 +64,21 @@ aside.social {
 aside h3 {
 	padding-left: 100px;
 }
-
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
 
 /** Footer **/
 footer {
