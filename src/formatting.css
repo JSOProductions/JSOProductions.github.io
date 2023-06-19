@@ -1,0 +1,29 @@
+/** Formatting **/
+html {
+	overflow: auto;
+	overflow-x: hidden;
+}
+@font-face {
+	font-family: OCR;
+	src: url(OCRAEXT.TTF);
+}
+body {
+	font-family: OCR;
+    margin-bottom: 0;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+a {
+	font-family: OCR;
+    margin-bottom: 0;
+}
+p {
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 20px;
+}
+.Mention {
+    color: lightskyblue;
+    text-decoration: none;
+}
