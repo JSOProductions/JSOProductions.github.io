@@ -18,3 +18,12 @@ div.desc {
   padding: 15px;
   text-align: center;
 }
+
+@media screen and (max-width: 800px) {
+	article.gallery {
+		display: none;
+	}
+	div.hide {
+		display: none;
+	}
+}

@@ -1,9 +1,18 @@
 /** Layout **/
 article.games {
   float: right;
-  padding: 20px;
   width: 50%;
   background-color: #f1f1f1;
+  position: relative;
+  padding: 0;
+}
+center.games {
+	padding: 2%;
+}
+aside.contactinfo {
+	position: relative;
+	padding: 0px; 
+	width: 50%;
 }
 article {
   float: left;
@@ -44,7 +53,7 @@ aside h3 {
   display: table;
   clear: both;
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:900px) {
   .column {
     width: 100%;
   }
