@@ -1,10 +1,9 @@
 /** Layout **/
 article.games {
-  float: right;
-  width: 50%;
-  background-color: #f1f1f1;
-  position: relative;
-  padding: 0;
+	float: right;
+	width: 50%;
+	position: relative;
+	padding: 0;
 }
 center.games {
 	padding: 2%;
@@ -15,18 +14,17 @@ aside.contactinfo {
 	width: 50%;
 }
 article {
-  float: left;
-  padding: 20px;
-  width: 53%;
-  background-color: #f1f1f1;
+	float: left;
+	padding: 20px;
+	width: 53%;
 }
 section::after {
-  content: "";
-  display: table;
-  clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
 aside {
-	background-color: #e6e6e6;
+	
 }
 aside h2 {
 	padding-top: 15px;
@@ -38,23 +36,23 @@ aside p {
 	font-size: 25px;
 }
 aside.social {
-	background-color: #d9d9d9;
+	
 }
 aside h3 {
 	padding-left: 100px;
 }
 .column {
-  float: left;
-  width: 33.33%;
-  padding: 15px;
+	float: left;
+	width: 33.33%;
+	padding: 15px;
 }
 .row::after {
-  content: "";
-  display: table;
-  clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
 @media screen and (max-width:900px) {
-  .column {
-    width: 100%;
-  }
+	.column {
+		width: 100%;
+	}
 }

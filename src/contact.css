@@ -10,7 +10,6 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #5DADE2;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -22,6 +21,5 @@ input[type=email] {
 	border-radius: 4px;
 	padding: 5px;
 	width: fit-content;
-	color: black;
 	margin-bottom: 15px;
 }
