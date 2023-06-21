@@ -6,16 +6,16 @@
 		<meta name="google-site-verification" content="XVVD973Y6eWQiNaevYkHy5DzgIyr75Pe0EzIJKbOVUg" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="shortcut icon" type="image/png" href="./src/Logo.png" />
-		<link rel="stylesheet" href="./src/footer.css" />
-		<link rel="stylesheet" href="./src/formatting.css" />
-		<link rel="stylesheet" href="./src/layout.css" />
-		<link rel="stylesheet" href="./src/NavigationBar.css" />
-		<link rel="stylesheet" href="./src/gallery.css" />
-		<link rel="stylesheet" href="./src/hoverbutton.css" />
-		<link rel="stylesheet" href="./src/darkmode.css" id="darkMode" />
-		<link rel="stylesheet" href="./src/switch.css" />
-		<script src="./src/mode.js"></script>
-		<link rel="stylesheet" href="./src/contact.css" />
+		<link rel="stylesheet" href="./src/css/footer.css" />
+		<link rel="stylesheet" href="./src/css/formatting.css" />
+		<link rel="stylesheet" href="./src/css/layout.css" />
+		<link rel="stylesheet" href="./src/css/NavigationBar.css" />
+		<link rel="stylesheet" href="./src/css/gallery.css" />
+		<link rel="stylesheet" href="./src/css/hoverbutton.css" />
+		<link rel="stylesheet" href="./src/css/darkmode.css" id="darkMode" />
+		<link rel="stylesheet" href="./src/css/switch.css" />
+		<script src="./src/js/mode.js"></script>
+		<link rel="stylesheet" href="./src/css/contact.css" />
 	</head>
 	
 	<body>
@@ -61,13 +61,24 @@
 		<!-- Footer -->
 		<footer>
 			<br />
-			<section>
+			<section class="footerclass">
+				<aside>
+					<div style="float: left; padding: 15px;">
+						<center>
+							<h1>Light | Dark</h1>
+							<label class="switch" for="change">
+								<input type="checkbox" id="change" onclick=mode() checked>
+								<span class="slider round" />
+							</label>
+						</center>
+					</div>
+				</aside>
 				<article class="footerclass">
-				<center>
-					<h1>Copyright JackStudios</h1>
-					<p>2020 - 20<a href="./Hidden.html" style="color: white; text-decoration: none;">2</a>3</p>
-					<p>Powered By <a href="https://un-static.com" class="Mention">Un-Static</a></p>
-				</center>
+					<center>
+						<h1>Copyright JackStudios</h1>
+						<p>2020 - 20<a href="./src/html/Hidden.html" style="color: white; text-decoration: none;">2</a>3</p>
+						<p>Powered By <a href="https://un-static.com" class="Mention">Un-Static</a></p>
+					</center>
 				</article>
 				<aside class="footerclass" style="float: right;">
 					<div class="footerimg">
