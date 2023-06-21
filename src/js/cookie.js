@@ -21,3 +21,33 @@ function checkModeCookie() {
     setMode(cookieValue);
   }
 }
+
+function setDarkModePreference() {
+  const checkbox = document.querySelector('#dark-mode-switch');
+  const checked = checkbox.checked;
+  const value = checked ? 'on' : 'off';
+  document.cookie = `dark-mode=${value}; path=/; max-age=31536000`;
+  
+ function toggleDarkMode() {
+  const body = document.querySelector('body');
+  body.classList.toggle('dark-mode');
+  setDarkModePreference();
+}
+
+function getDarkModePreference() {
+  const cookies = document.cookie.split(';');
+  const darkModeCookie = cookies.find(cookie => cookie.trim().startsWith('dark-mode='));
+  if (darkModeCookie) {
+    const value = darkModeCookie.split('=')[1].trim();
+    const checkbox = document.querySelector('#dark-mode-switch');
+    checkbox.checked = value === 'on';
+    const body = document.querySelector('body');
+    if (checkbox.checked) {
+      body.classList.add('dark-mode');
+    } else {
+      body.classList.remove('dark-mode');
+    }
+  }
+}
+
+window.addEventListener('load', getDarkModePreference);
