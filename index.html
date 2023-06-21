@@ -17,12 +17,6 @@
 		<link rel="stylesheet" href="./src/css/lightmode.css" id="cookieMode" />
 		<link rel="stylesheet" href="./src/css/switch.css" />
 		<link rel="stylesheet" href="./src/css/color.css" />
-		<script src="./src/js/cookie.js"></script>
-		<script>
-		  window.onload = function() {
-			checkModeCookie();
-		  }
-		</script>
 	</head>
 	
 	<body>
@@ -203,11 +197,10 @@
 			<section class="footerclass">
 				<aside>
 					<div style="float: left; padding: 15px;">
-						<h1>Light | Dark</h1>
-                            <label class="switch" for="change">
-                                <input type="checkbox" id="change" onclick=mode()>
-                                <span class="slider round" />
-                            </label>
+						<label class="switch">
+							<input type="checkbox" id="dark-mode-toggle" class="dark-mode-toggle">
+							<span class="slider round" />
+                        </label>
 					</div>
 				</aside>
 				<article class="footerclass">
@@ -225,5 +218,6 @@
 			<br />
 		</footer>
 		<script src="./src/js/cookie.js"></script>
+		<script src="./src/js/mode.js"></script>
 	</body>
 </html>

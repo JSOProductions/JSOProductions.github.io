@@ -1,68 +1,68 @@
-.dark-mode {
+.darkmode {
   color: #f1f1f1;
   background-color: #121212;
 }
 
-.dark-mode h1,
-.dark-mode h2,
-.dark-mode h3,
-.dark-mode h4,
-.dark-mode h5,
-.dark-mode h6 {
+.darkmode h1,
+.darkmode h2,
+.darkmode h3,
+.darkmode h4,
+.darkmode h5,
+.darkmode h6 {
   color: #f1f1f1;
 }
 
-.dark-mode a {
+.darkmode a {
   color: #5DADE2;
 }
 
-.dark-mode a:hover {
+.darkmode a:hover {
   color: #3498DB;
 }
 
-.dark-mode button {
+.darkmode button {
   background-color: #5DADE2;
   color: #f1f1f1;
 }
 
-.dark-mode button:hover {
+.darkmode button:hover {
   background-color: #3498DB;
 }
 
-.dark-mode .contact {
+.darkmode .contact {
   background-color: #3c3c3c;
   color: #f1f1f1;
 }
 
-.dark-mode .contact:hover {
+.darkmode .contact:hover {
   background-color: gray;
 }
 
-.dark-mode input[type=submit] {
+.darkmode input[type=submit] {
   background-color: #5DADE2;
 }
 
-.dark-mode input[type=email],
-.dark-mode a,
-.dark-mode .contact {
+.darkmode input[type=email],
+.darkmode a,
+.darkmode .contact {
   color: #f1f1f1;
 }
 
-.dark-mode article.games,
-.dark-mode article,
-.dark-mode div.contactinfo {
+.darkmode article.games,
+.darkmode article,
+.darkmode div.contactinfo {
   background-color: #252525;
 }
 
-.dark-mode aside,
-.dark-mode aside.social {
+.darkmode aside,
+.darkmode aside.social {
   background-color: #2e2e2e;
 }
 
-.dark-mode .sectionA {
+.darkmode .sectionA {
   background-color: #383838;
 }
 
-.dark-mode .game {
+.darkmode .game {
   color: #f1f1f1;
 }
