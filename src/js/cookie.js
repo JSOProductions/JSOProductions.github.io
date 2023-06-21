@@ -12,7 +12,8 @@ function mode() {
   }
   // Save the mode value in a cookie
   document.cookie = `mode=${mode}; path=/`;
-	if (body === 'dark-mode') {
+  
+	if (body.classList === 'dark-mode') {
     stylesheet.href = "./src/css/darkmode.css";
   } else {
     stylesheet.href = "./src/css/lightmode.css";
