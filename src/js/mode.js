@@ -5,9 +5,10 @@ function mode() {
 	var changeVar = document.getElementById("change");
 	
 	/* Action */
-	if (changeVar.checked == true) {
-		
-	} else {
-		
-	}
+	if (mode.checked == true) {
+        stylesheet.href = "./src/css/darkmode.css";
+    }
+    else if (mode.checked == false) {
+        stylesheet.href = "./src/css/lightmode.css";
+    }
 }
