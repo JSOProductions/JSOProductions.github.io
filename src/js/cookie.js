@@ -1,14 +1,15 @@
-function setMode(mode) {
-  const body = document.querySelector('body');
-  if (mode === 'dark') {
-    body.classList.add('dark-mode');
-    body.classList.remove('light-mode');
-  } else if (mode === 'light') {
-    body.classList.add('light-mode');
-    body.classList.remove('dark-mode');
-  }
-  // Save the mode value in a cookie
-  document.cookie = `mode=${mode}; path=/`;
+	const stylesheet = document.getElementById("cookieMode");
+	var mode = document.getElementById("change");
+	
+	if (mode.checked == true) {
+		stylesheet.href = "./src/css/darkmode.css";
+	}
+	else if (mode.checked == false) {
+		stylesheet.href = "./src/css/lightmode.css";
+	}
+	// Save the mode value in a cookie
+	document.cookie = `mode=${mode}; path=/`;
+
 }
 
 function checkModeCookie() {
