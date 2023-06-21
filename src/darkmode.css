@@ -40,3 +40,8 @@ a {
   background-color: gray;
   color: white;
 }
+
+.game {
+	text-decoration: none;
+	color: white;
+}
