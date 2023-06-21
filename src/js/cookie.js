@@ -22,32 +22,61 @@ function checkModeCookie() {
   }
 }
 
-function setDarkModePreference() {
-  const checkbox = document.querySelector('#dark-mode-switch');
-  const checked = checkbox.checked;
-  const value = checked ? 'on' : 'off';
-  document.cookie = `dark-mode=${value}; path=/; max-age=31536000`;
+function setModePreference() {
+  const darkModeCheckbox = document.querySelector('#dark-mode-switch');
+  const darkModeChecked = darkModeCheckbox.checked;
+  const darkModeValue = darkModeChecked ? 'on' : 'off';
+  document.cookie = `dark-mode=${darkModeValue}; path=/; max-age=31536000`;
   
- function toggleDarkMode() {
+  const lightModeCheckbox = document.querySelector('#light-mode-switch');
+  const lightModeChecked = lightModeCheckbox.checked;
+  const lightModeValue = lightModeChecked ? 'on' : 'off';
+  document.cookie = `light-mode=${lightModeValue}; path=/; max-age=31536000`;
+}
+  
+function toggleMode() {
+  const darkModeCheckbox = document.querySelector('#dark-mode-switch');
+  const lightModeCheckbox = document.querySelector('#light-mode-switch');
   const body = document.querySelector('body');
-  body.classList.toggle('dark-mode');
-  setDarkModePreference();
+  if (darkModeCheckbox.checked) {
+    body.classList.remove('light-mode');
+    body.classList.add('dark-mode');
+  } else if (lightModeCheckbox.checked) {
+    body.classList.remove('dark-mode');
+    body.classList.add('light-mode');
+  } else {
+    body.classList.remove('dark-mode');
+    body.classList.remove('light-mode');
+  }
+  setModePreference();
 }
 
-function getDarkModePreference() {
+function getModePreference() {
   const cookies = document.cookie.split(';');
   const darkModeCookie = cookies.find(cookie => cookie.trim().startsWith('dark-mode='));
   if (darkModeCookie) {
     const value = darkModeCookie.split('=')[1].trim();
-    const checkbox = document.querySelector('#dark-mode-switch');
-    checkbox.checked = value === 'on';
+    const darkModeCheckbox = document.querySelector('#dark-mode-switch');
+    darkModeCheckbox.checked = value === 'on';
     const body = document.querySelector('body');
-    if (checkbox.checked) {
+    if (darkModeCheckbox.checked) {
       body.classList.add('dark-mode');
     } else {
       body.classList.remove('dark-mode');
     }
   }
+  const lightModeCookie = cookies.find(cookie => cookie.trim().startsWith('light-mode='));
+  if (lightModeCookie) {
+    const value = lightModeCookie.split('=')[1].trim();
+    const lightModeCheckbox = document.querySelector('#light-mode-switch');
+    lightModeCheckbox.checked = value === 'on';
+    const body = document.querySelector('body');
+    if (lightModeCheckbox.checked) {
+      body.classList.add('light-mode');
+    } else {
+      body.classList.remove('light-mode');
+    }
+  }
 }
 
-window.addEventListener('load', getDarkModePreference);
+window.addEventListener('load', getModePreference);
