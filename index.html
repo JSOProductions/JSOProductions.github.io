@@ -8,7 +8,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta charset="UTF-8">
 		<link rel="shortcut icon" type="image/png" href="./src/Logo.png" />
-		<script src="./src/js/cookie.js"></script>
 		<link rel="stylesheet" href="./src/css/footer.css" />
 		<link rel="stylesheet" href="./src/css/formatting.css" />
 		<link rel="stylesheet" href="./src/css/layout.css" />
@@ -20,10 +19,10 @@
 		<link rel="stylesheet" href="./src/css/color.css" />
 		<script src="./src/js/mode.js"></script>
 		<script>
-      window.onload = function() {
-        checkModeCookie();
-      }
-    </script>
+		  window.onload = function() {
+			checkModeCookie();
+		  }
+		</script>
 	</head>
 	
 	<body>
@@ -204,14 +203,11 @@
 			<section class="footerclass">
 				<aside>
 					<div style="float: left; padding: 15px;">
-						<center>
-							<h1>Light | Dark</h1>
-							<label class="switch" for="change">
-								<input type="checkbox" id="change" onclick=mode()>
-								<span class="slider round" />
-							</label>
-							</div>
-						</center>
+						<h1>Light | Dark</h1>
+                            <label class="switch" for="change">
+                                <input type="checkbox" id="change" onclick=mode()>
+                                <span class="slider round" />
+                            </label>
 					</div>
 				</aside>
 				<article class="footerclass">
