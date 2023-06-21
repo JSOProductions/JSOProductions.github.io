@@ -4,7 +4,9 @@
 	<head>
 		<title>JackStudios</title>
 		<meta name="google-site-verification" content="XVVD973Y6eWQiNaevYkHy5DzgIyr75Pe0EzIJKbOVUg" />
+		<meta http-equiv="Permissions-Policy" content="interest-cohort=()">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta charset="UTF-8">
 		<link rel="shortcut icon" type="image/png" href="./src/Logo.png" />
 		<link rel="stylesheet" href="./src/css/footer.css" />
 		<link rel="stylesheet" href="./src/css/formatting.css" />
@@ -12,9 +14,9 @@
 		<link rel="stylesheet" href="./src/css/NavigationBar.css" />
 		<link rel="stylesheet" href="./src/css/gallery.css" />
 		<link rel="stylesheet" href="./src/css/hoverbutton.css" />
-		<link rel="stylesheet" href="./src/css/darkmode.css" id="darkMode" />
+		<link rel="stylesheet" href="./src/css/lightmode.css" id="cookieMode" />
 		<link rel="stylesheet" href="./src/css/switch.css" />
-		<script src="./src/js/mode.js"></script>
+		<link rel="stylesheet" href="./src/css/equalHeight.css" />
 		<link rel="stylesheet" href="./src/css/contact.css" />
 	</head>
 	
@@ -66,8 +68,8 @@
 					<div style="float: left; padding: 15px;">
 						<center>
 							<h1>Light | Dark</h1>
-							<label class="switch" for="change">
-								<input type="checkbox" id="change" onclick=mode() checked>
+							<label class="switch">
+								<input type="checkbox" id="dark-mode-toggle" class="dark-mode-toggle">
 								<span class="slider round" />
 							</label>
 						</center>
