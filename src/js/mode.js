@@ -1,5 +1,6 @@
 // check for saved 'darkMode' in localStorage
 let darkMode = localStorage.getItem('darkMode'); 
+let input = document.getElementById('dark-mode-toggle');
 
 const darkModeToggle = document.querySelector('#dark-mode-toggle');
 const stylesheet = document.getElementById("cookieMode");
@@ -10,6 +11,7 @@ const enableDarkMode = () => {
   // 2. Update darkMode in localStorage
   localStorage.setItem('darkMode', 'enabled');
   stylesheet.href = "./src/css/darkmode.css";
+  input.checked = true;
 }
 
 const disableDarkMode = () => {
@@ -18,6 +20,7 @@ const disableDarkMode = () => {
   // 2. Update darkMode in localStorage 
   localStorage.setItem('darkMode', null);
   stylesheet.href = "./src/css/lightmode.css";
+  input.checked = false;
 }
  
 // If the user already visited and enabled darkMode
