@@ -2,7 +2,7 @@ function mode() {
  
 	/* Variables */
 	const stylesheet = document.getElementById("cookieMode");
-	var changeVar = document.getElementById("change");
+	var mode = document.getElementById("change");
 	
 	/* Action */
 	if (mode.checked == true) {
