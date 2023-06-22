@@ -3,7 +3,9 @@
 <html>
 	<head>
 		<title>JackStudios</title>
+		<meta charset="UTF-8">
 		<meta name="google-site-verification" content="XVVD973Y6eWQiNaevYkHy5DzgIyr75Pe0EzIJKbOVUg" />
+		<meta http-equiv="Permissions-Policy" content="interest-cohort=()">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="shortcut icon" type="image/png" href="../Logo.png" />
 		<link rel="stylesheet" href="../css/footer.css" />
@@ -12,10 +14,8 @@
 		<link rel="stylesheet" href="../css/NavigationBar.css" />
 		<link rel="stylesheet" href="../css/gallery.css" />
 		<link rel="stylesheet" href="../css/hoverbutton.css" />
-		<link rel="stylesheet" href="../css/darkmode.css" id="darkMode" />
+		<link rel="stylesheet" href="../css/lightmode.css" id="cookieMode" />
 		<link rel="stylesheet" href="../css/switch.css" />
-		<script src="../js/mode.js"></script>
-		<script src="../js/cal.js"></script>
 	</head>
 	
 	<body>
@@ -50,11 +50,22 @@
 		<footer>
 			<br />
 			<section class="footerclass">
-				<article class="footerclass">
-				<center>
-					<h1>Copyright JackStudios</h1>
-					<p>2020 - 20<a href="./Hidden.html" style="color: white; text-decoration: none;">2</a>3</p>
-				</center>
+				<aside>
+					<div style="float: left; padding: 15px;">
+						<center>
+							<h1>Light | Dark</h1>
+							<label class="switch">
+								<input type="checkbox" id="dark-mode-toggle" class="dark-mode-toggle">
+								<span class="slider round" />
+							</label>
+						</center>
+					</div>
+				</aside>
+					<article class="footerclass">
+					<center>
+						<h1>Copyright JackStudios</h1>
+						<p>2020 - 20<a href="./Hidden.html" style="color: white; text-decoration: none;">2</a>3</p>
+					</center>
 				</article>
 				<aside class="footerclass" style="float: right;">
 					<div class="footerimg">
@@ -64,5 +75,6 @@
 			</section>
 			<br />
 		</footer>
+		<script src="../js/mode.js" />
 	</body>
 </html>
