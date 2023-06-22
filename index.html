@@ -17,6 +17,7 @@
 		<link rel="stylesheet" href="./src/css/lightmode.css" id="cookieMode" />
 		<link rel="stylesheet" href="./src/css/switch.css" />
 		<link rel="stylesheet" href="./src/css/equalHeight.css" />
+		<link rel="stylesheet" href="./src/css/img.css" />
 	</head>
 	
 	<body>
@@ -41,10 +42,12 @@
 					<h2>My Photography</h2>
 				</center>
 				<div class="gallery">
-					<a target="_blank" href="./src/images/Bubble1.JPG">
-						<img src="./src/images/Bubble1.JPG" alt="image 1">
-					</a>
-					<div class="desc">Bubbles 1</div>
+					<img id="myImg" src="./src/images/Bubble1.JPG" alt="image 1">
+					<div id="myModal" class="modal">
+						<span class="close">&times;</span>
+						<img class="modal-content" id="img01">
+						<div id="caption"></div>
+					</div>
 				</div>
 				<div class="gallery">
 					<a target="_blank" href="./src/images/Bubble2.JPG">
@@ -191,7 +194,7 @@
 			</aside>
 			<br />
 			</div>
-		</section>
+		</section>	
 		<br />
 		<!-- Footer -->
 		<footer>
@@ -223,5 +226,6 @@
 			<br />
 		</footer>
 		<script src="./src/js/mode.js"></script>
+		<script src="./src/js/img.js"></script>
 	</body>
 </html>
