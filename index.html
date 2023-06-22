@@ -18,6 +18,7 @@
 		<link rel="stylesheet" href="./src/css/switch.css" />
 		<link rel="stylesheet" href="./src/css/scrollBar.css" />
 		<link rel="stylesheet" href="./src/css/equalHeight.css" />
+		<link rel="stylesheet" href="./src/css/img.css" />
 	</head>
 	
 	<body>
@@ -39,15 +40,18 @@
 			<!-- Gallery -->
 			<article class="gallery col">
 				<center>
-					<h2>My Photography</h2>
+				<h2>My Photography</h2>
 				</center>
 				<div class="overflow">
 					<div class="bubbles">
 						<div class="gallery">
-							<a target="_blank" href="./src/images/Bubble1.JPG">
-								<img src="./src/images/Bubble1.JPG" alt="image 1">
-							</a>
-							<div class="desc">Bubbles 1</div>
+							<img id="myImg" src="./src/images/Bubble1.JPG" alt="Bubble 1">
+							<div id="myModal" class="modal">
+								<span class="close">&times;</span>
+								<img class="modal-content" id="img01">
+								<div id="caption"></div>
+							</div>
+							<div class="desc">Bubble 1</div>
 						</div>
 						<div class="gallery">
 							<a target="_blank" href="./src/images/Bubble2.JPG">
@@ -198,7 +202,7 @@
 			</aside>
 			<br />
 			</div>
-		</section>
+		</section>	
 		<br />
 		<!-- Footer -->
 		<footer>
@@ -230,5 +234,6 @@
 			<br />
 		</footer>
 		<script src="./src/js/mode.js"></script>
+		<script src="./src/js/img.js"></script>
 	</body>
 </html>
