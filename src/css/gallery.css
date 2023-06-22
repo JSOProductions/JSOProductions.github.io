@@ -19,6 +19,18 @@ div.desc {
   text-align: center;
 }
 
+.bubbles {
+	display: inline-flex;
+}
+
+.other {
+	display: inline-flex;
+}
+
+.overflow {
+	overflow-x: scroll;
+}
+
 @media screen and (max-width: 800px) {
 	article.gallery {
 		display: none;
