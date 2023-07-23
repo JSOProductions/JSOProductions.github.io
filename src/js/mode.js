@@ -10,7 +10,7 @@ const enableDarkMode = () => {
   document.body.classList.add('darkmode');
   // 2. Update darkMode in localStorage
   localStorage.setItem('darkMode', 'enabled');
-  stylesheet.href = "./src/css/darkmode.css";
+  stylesheet.href = "./src/css/mode/darkmode.css";
   input.checked = true;
 }
 
@@ -19,7 +19,7 @@ const disableDarkMode = () => {
   document.body.classList.remove('darkmode');
   // 2. Update darkMode in localStorage 
   localStorage.setItem('darkMode', null);
-  stylesheet.href = "./src/css/lightmode.css";
+  stylesheet.href = "./src/css/mode/lightmode.css";
   input.checked = false;
 }
  
