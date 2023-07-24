@@ -41,4 +41,6 @@ function showSlides(n) {
 
 window.onkeydown = function (e) {
 	if (e.key == 'Escape'){closeModal()}
+	if (e.keyCode == '37') {plusSlides(-1)}
+	if (e.keyCode == '39') {plusSlides(1)}
 }
