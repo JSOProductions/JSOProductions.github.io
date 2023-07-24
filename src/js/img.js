@@ -38,3 +38,7 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
+
+window.onkeydown = function (e) {
+	if (e.key == 'Escape'){closeModal()}
+}
