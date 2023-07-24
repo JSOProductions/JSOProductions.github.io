@@ -40,26 +40,9 @@ a img:hover.header {
     background-color: #111;
 }
 
-/* width */
+/** Scrollbar **/
 ::-webkit-scrollbar {
-    width: 7px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-    border-radius: 10px;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 10px;
-    margin-right: 5px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    display: none;
 }
 
 /** Footer **/
