@@ -32,11 +32,26 @@ div.desc {
 }
 
 @media screen and (max-width: 800px) {
-	article.gallery {
-		display: none;
-	}
 	div.hide {
 		display: none;
+	}
+	div.show {
+		display: block;
+	}
+	article.hide{
+		display: none;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	div.hide {
+		display: block;
+	}
+	div.show {
+		display: none;
+	}
+	article.hide{
+		display: block;
 	}
 }
 
