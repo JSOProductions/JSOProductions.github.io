@@ -117,40 +117,84 @@
 							</div>
 							</center>
 						</div>
-					  </div>
+					</div>
 					</div>
 					<div class="other">
 						<div class="gallery">
-							<a target="_blank" href="./src/images/g1.JPG">
-								<img src="./src/images/lowRes/g1.JPG" alt="image 6" width="600" height="400">
-							</a>
+							<img src="./src/images/lowRes/g1.JPG" alt="Sunset" width="600" height="400" onclick="openModal2();currentSlide2(1)" class="hover-shadow">
 							<div class="desc">Sunset</div>
 						</div>
 						<div class="gallery">
-							<a target="_blank" href="./src/images/g2.JPG">
-								<img src="./src/images/lowRes/g2.JPG" alt="image 7" width="600" height="400">
-							</a>
+							<img src="./src/images/lowRes/g2.JPG" alt="Campfire" width="600" height="400" onclick="openModal2();currentSlide2(2)" class="hover-shadow">
 							<div class="desc">Campfire</div>
 						</div>
 						<div class="gallery">
-							<a target="_blank" href="./src/images/g3.JPG">
-								<img src="./src/images/lowRes/g3.JPG" alt="image 8" width="600" height="400">
-							</a>
+							<img src="./src/images/lowRes/g3.JPG" alt="Little Bluejay" width="600" height="400" onclick="openModal2();currentSlide2(3)" class="hover-shadow">
 							<div class="desc">Little Bluejay</div>
 						</div>
 						<div class="gallery">
-							<a target="_blank" href="./src/images/g4.JPG">
-								<img src="./src/images/lowRes/g4.JPG" alt="image 8" width="600" height="400">
-							</a>
+							<img src="./src/images/lowRes/g4.JPG" alt="Glaciers" width="600" height="400" onclick="openModal2();currentSlide2(4)" class="hover-shadow">
 							<div class="desc">Glaciers</div>
 						</div>
 						<div class="gallery">
-							<a target="_blank" href="./src/images/g5.JPG">
-								<img src="./src/images/lowRes/g5.JPG" alt="image 8" width="600" height="400">
-							</a>
+							<img src="./src/images/lowRes/g5.JPG" alt="Glass Sphere" width="600" height="400" onclick="openModal2();currentSlide2(5)" class="hover-shadow">
 							<div class="desc">Glass Sphere</div>
 						</div>
 					</div>
+					<div id="myModal2" class="modal2">
+					  <span class="close cursor" onclick="closeModal2()">&times;</span>
+					  <div class="modal-content2">
+						<center>
+						<div class="mySlides2">
+							<img src="./src/images/lowRes/g1.JPG" style="width:100%">
+						</div>
+	
+						<div class="mySlides2">
+							<img src="./src/images/lowRes/g2.JPG" style="width:100%">
+						</div>
+
+						<div class="mySlides2">
+							<img src="./src/images/lowRes/g3.JPG" style="width:100%">
+						</div>
+
+						<div class="mySlides2">
+							<img src="./src/images/lowRes/g4.JPG" style="width:100%">
+						</div>
+						<div class="mySlides2">
+							<img src="./src/images/lowRes/g5.JPG" style="width:100%">
+						</div>
+						</center>
+						<a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+						<a class="next" onclick="plusSlides2(1)">&#10095;</a>
+
+						<div class="caption-container">
+						  <p id="caption2"></p>
+						</div>
+						<div class="columz">
+							<center>
+							<div class="columnz">
+							  <img class="demo2" src="./src/images/lowRes/g1.JPG" onclick="currentSlide2(1)" alt="Sunset" width="95%">
+							</div>
+
+							<div class="columnz">
+							  <img class="demo2" src="./src/images/lowRes/g2.JPG" onclick="currentSlide2(2)" alt="Campfire" width="95%">
+							</div>
+
+							<div class="columnz">
+							  <img class="demo2" src="./src/images/lowRes/g3.JPG" onclick="currentSlide2(3)" alt="Little Bluejay" width="95%">
+							</div>
+
+							<div class="columnz">
+							  <img class="demo2" src="./src/images/lowRes/g4.JPG" onclick="currentSlide2(4)" alt="Glaciers" width="95%">
+							</div>
+							
+							<div class="columnz">
+							  <img class="demo2" src="./src/images/lowRes/g5.JPG" onclick="currentSlide2(5)" alt="Glass Sphere" width="95%">
+							</div>
+							</center>
+						</div>
+					  </div>
+					  </div>
 				</div>
 			</article>
 			<!-- Mission, Offer -->
