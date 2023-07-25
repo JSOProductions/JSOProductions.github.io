@@ -1,3 +1,6 @@
+/** Gallery **/
+
+/** Div Code **/
 div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
@@ -19,6 +22,21 @@ div.desc {
   text-align: center;
 }
 
+/** Img Code **/
+img.demo {
+  opacity: 0.6;
+}
+
+img.demo2 {
+	opacity: 0.6;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+
+/** Class Code **/
 .bubbles {
 	display: inline-flex;
 }
@@ -29,30 +47,6 @@ div.desc {
 
 .overflow {
 	overflow-x: scroll;
-}
-
-@media screen and (max-width: 800px) {
-	div.hide {
-		display: none;
-	}
-	div.show {
-		display: block;
-	}
-	article.hide{
-		display: none;
-	}
-}
-
-@media screen and (min-width: 800px) {
-	div.hide {
-		display: block;
-	}
-	div.show {
-		display: none;
-	}
-	article.hide{
-		display: block;
-	}
 }
 
 .row:after {
@@ -186,13 +180,6 @@ div.desc {
   color: white;
 }
 
-img.demo {
-  opacity: 0.6;
-}
-
-img.demo2 {
-	opacity: 0.6;
-}
 
 .active,
 .demo:hover {
@@ -204,11 +191,34 @@ img.demo2 {
   opacity: 1;
 }
 
-img.hover-shadow {
-  transition: 0.3s;
-}
+
 
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   cursor: pointer;
+}
+
+/** Responsive Code **/
+@media screen and (max-width: 800px) {
+	div.hide {
+		display: none;
+	}
+	aside.show {
+		display: block;
+	}
+	article.hide{
+		display: none;
+	}
+}
+
+@media screen and (min-width: 801px) {
+	div.hide {
+		display: block;
+	}
+	aside.show {
+		display: none;
+	}
+	article.hide{
+		display: block;
+	}
 }

@@ -1,32 +1,28 @@
-
-
 /** Layout **/
+
+/** Article Code **/
 article.games {
 	float: right;
 	width: 50%;
 	position: relative;
 	padding: 0;
 }
-center.games {
-	padding: 2%;
-}
-aside.contactinfo {
-	position: relative;
-	padding: 0px; 
-	width: 50%;
-}
 article {
 	float: left;
 	padding: 20px;
 	width: 53%;
 }
-section::after {
-	content: "";
-	display: table;
-	clear: both;
+
+/** Center Code **/
+center.games {
+	padding: 2%;
 }
-aside {
-	
+
+/** Aside Code **/
+aside.contactinfo {
+	position: relative;
+	padding: 0px; 
+	width: 50%;
 }
 aside h2 {
 	padding-top: 15px;
@@ -37,34 +33,48 @@ aside p {
 	padding-bottom: 10px;
 	font-size: 25px;
 }
-aside.social {
-	
-}
 aside h3 {
 	padding-left: 100px;
 }
-.column {
-	float: left;
-	width: 33.33%;
-	padding: 15px;
-}
-.row::after {
+
+/** Section **/
+section::after {
 	content: "";
 	display: table;
 	clear: both;
 }
+
+/** Class Code **/
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #2e2e2e;
+}
+.container {
+  padding: 0 16px;
+}
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+	
+.col-container {
+	display: table; /* Make the container element behave like a table */
+	width: 100%; /* Set full-width to expand the whole page */
+}
+.col {
+	display: table-cell; /* Make elements inside the container behave like table cells */
+}
+
+/** Responsive Code **/
 @media screen and (max-width:900px) {
 	.column {
 		width: 100%;
 	}
 }
-
-.col-container {
-	display: table; /* Make the container element behave like a table */
-	width: 100%; /* Set full-width to expand the whole page */
-}
-
-.col {
-	display: table-cell; /* Make elements inside the container behave like table cells */
-}
-
