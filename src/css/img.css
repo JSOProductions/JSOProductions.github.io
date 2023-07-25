@@ -23,9 +23,31 @@
   overflow: auto;
   background-color: black;
 }
+ 
+.modal2 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 20px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
 
 /* Modal Content */
 .modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 55%;
+  max-width: 1200px;
+}
+
+.modal-content2 {
   position: relative;
   background-color: #fefefe;
   margin: auto;
@@ -54,6 +76,10 @@
 /* Hide the slides by default */
 .mySlides {
   display: none;
+}
+
+.mySlides2 {
+	display: none;
 }
 
 /* Next & previous buttons */
@@ -107,8 +133,17 @@ img.demo {
   opacity: 0.6;
 }
 
+img.demo2 {
+	opacity: 0.6;
+}
+
 .active,
 .demo:hover {
+  opacity: 1;
+}
+
+.active2,
+.demo2:hover {
   opacity: 1;
 }
 
