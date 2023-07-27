@@ -23,6 +23,10 @@ p {
 	padding-right: 5px;
 	font-size: 20px;
 }
+.button {
+	font-family: OCR;
+	border-radius: 5px;
+}
 .Mention {
     color: lightskyblue;
     text-decoration: none;

@@ -56,7 +56,7 @@ section::after {
   background-color: #2e2e2e;
 }
 .container {
-  padding: 0 16px;
+  padding: 16px;
 }
 .container::after, .row::after {
   content: "";
