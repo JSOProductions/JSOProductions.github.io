@@ -27,7 +27,13 @@ input[type=email] {
 	text-decoration: none;
 	color: black;
 }
-
+a {
+	color: grey;
+}
+button a {
+	color: white;
+	text-decoration: none;
+}
 .contact {
   background-color: darkgrey;
   color: white; 
@@ -43,4 +49,5 @@ input[type=email] {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: #e6e6e6;
+  height: 100%;
 }
