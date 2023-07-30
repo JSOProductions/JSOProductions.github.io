@@ -9,12 +9,6 @@
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://jsoproductions.github.io/contact.html</loc>
-        <lastmod>2023-07-31</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
         <loc>https://jsoproductions.github.io/index.html</loc>
         <lastmod>2023-07-31</lastmod>
         <changefreq>always</changefreq>
@@ -27,7 +21,25 @@
         <priority>0.5</priority>
     </url>
     <url>
+        <loc>https://jsoproductions.github.io/origins.html</loc>
+        <lastmod>2023-07-31</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://jsoproductions.github.io/mobile-gallery.html</loc>
+        <lastmod>2023-07-31</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
         <loc>https://jsoproductions.github.io/src/html/calGame.html</loc>
+        <lastmod>2023-07-31</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://jsoproductions.github.io/contact.html</loc>
         <lastmod>2023-07-31</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
