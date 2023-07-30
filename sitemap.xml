@@ -4,37 +4,31 @@
 
     <url>
         <loc>https://jsoproductions.github.io</loc>
-        <lastmod>2023-07-25</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://jsoproductions.github.io/index.html</loc>
-        <lastmod>2023-07-25</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://jsoproductions.github.io/products.html</loc>
-        <lastmod>2023-07-25</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://jsoproductions.github.io/src/html/calGame.html</loc>
-        <lastmod>2023-07-25</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://jsoproductions.github.io/src/html/Hidden.html</loc>
-        <lastmod>2023-07-25</lastmod>
+        <lastmod>2023-07-31</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://jsoproductions.github.io/contact.html</loc>
-        <lastmod>2023-07-25</lastmod>
+        <lastmod>2023-07-31</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://jsoproductions.github.io/index.html</loc>
+        <lastmod>2023-07-31</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://jsoproductions.github.io/products.html</loc>
+        <lastmod>2023-07-31</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://jsoproductions.github.io/src/html/calGame.html</loc>
+        <lastmod>2023-07-31</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>

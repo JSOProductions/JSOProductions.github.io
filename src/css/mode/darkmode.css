@@ -45,7 +45,9 @@ button a {
   background-color: gray;
   color: white;
 }
-
+.contactus {
+	background: #4f4f4f;
+}
 .game {
 	text-decoration: none;
 	color: white;
