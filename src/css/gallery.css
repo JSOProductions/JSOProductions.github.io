@@ -45,6 +45,11 @@ img.hover-shadow {
 	display: inline-flex;
 }
 
+.demo2,
+.demo {
+	width: 95%;
+}
+
 .overflow {
 	overflow-x: scroll;
 }
