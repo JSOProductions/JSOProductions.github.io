@@ -136,6 +136,10 @@ img.hover-shadow {
 	display: none;
 }
 
+.slides {
+	width: 100%;
+}
+
 /* Next & previous buttons */
 .prev,
 .next {
