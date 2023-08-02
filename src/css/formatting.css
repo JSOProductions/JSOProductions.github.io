@@ -6,6 +6,7 @@ html {
 @font-face {
 	font-family: OCR;
 	src: url(../font/OCRAEXT.woff2);
+	
 }
 body {
 	font-family: OCR;
