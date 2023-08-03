@@ -10,3 +10,29 @@
 .banner {
 	width: 100%;
 }
+
+.products-area {
+	width: fit-content;
+}
+
+/* Menu Code */
+.menu {
+  width: 45px;
+  height: 6px;
+  background-color: #161616;
+  margin: 7px 0px 8px 5px;
+}
+
+.logo {
+	display: none;
+}
+
+.change .menu {
+	display: none;
+}
+
+.change .logo {
+	display: block;
+    width: 45px;
+    height: 45px;
+}

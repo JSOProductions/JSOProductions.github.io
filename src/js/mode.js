@@ -42,3 +42,7 @@ darkModeToggle.addEventListener('click', () => {
     disableDarkMode(); 
   }
 });
+
+function Menu(x) {
+  x.classList.toggle("change");
+}
