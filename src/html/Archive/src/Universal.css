@@ -1,0 +1,35 @@
+p {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin-top: 0;
+	}
+html{
+	overflow: auto;
+}
+@font-face {
+	font-family: OCR;
+	src: url(OCRAEXT.TTF);
+}
+body{
+	font-family: OCR;
+    margin-bottom: 0
+    }
+a{
+	font-family: OCR;
+    margin-bottom: 0
+}
+a:link{
+	text-decoration: none;
+	color: inherit;
+}
+a:visited{
+	text-decoration: none;
+	color: inherit;
+}
+.center{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+}

@@ -1,0 +1,16 @@
+.header{
+	height: 50px;
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	color: white;
+	}
+.name{
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	margin: 0px;
+	background: #00FFDB;
+	height: 40px;
+	border-radius: 5px;
+    }

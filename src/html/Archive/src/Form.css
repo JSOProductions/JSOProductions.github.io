@@ -1,0 +1,27 @@
+.form{
+	margin: auto;
+ 	width: 50%;
+ 	padding: 10px;
+	padding-top: 100px;
+	height: inherit;
+}
+.formBorder{
+	border-radius: 5px;
+	background-color: lightgray;
+	padding: 10px;
+	width: 100%;
+}
+.formBackground{
+	border-radius: 5px;
+	background-color: darkgray;
+	padding: 10px;
+	width: 97%;
+	height: 200px;
+}
+.text{
+	font-size: 15px;
+    text-align: center;
+    color: black;
+    margin-top: 0;
+	padding-top: 5%;
+}

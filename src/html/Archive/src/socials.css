@@ -1,0 +1,45 @@
+#dbutton{
+	padding-top: 5%;
+}
+.discordbutton{
+	height: 125px;
+	width: 175px;
+	transition-duration: 0.4s;
+}
+.dbutton{
+	background-color: black; 
+	color: white; 
+	border: 3px solid black;
+	border-radius: 5px;
+}
+.dbutton:hover {
+	background-color: white;
+	color: black;
+}
+#ytbutton{
+	padding-top: 5%;
+}
+.ytbutton{
+	background-color: red; 
+	color: white; 
+	border: 3px solid #640001;
+	border-radius: 5px;
+}
+.ytbutton:hover {
+	background-color: white;
+	color: black;
+}
+.YTbutton{
+	height: 125px;
+	width: 175px;
+	transition-duration: 0.4s;
+}
+.button{
+	border: none;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	margin: 4px 2px;
+	cursor: pointer;
+	display: inline;
+}
