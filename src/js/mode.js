@@ -44,5 +44,11 @@ darkModeToggle.addEventListener('click', () => {
 });
 
 function Menu(x) {
-  x.classList.toggle("change");
+	let contactToggle = document.getElementById('contactToggle')
+	let productsToggle = document.getElementById('productsToggle')
+	let originsToggle = document.getElementById('originsToggle')
+	contactToggle.classList.toggle("headerHidden");
+	productsToggle.classList.toggle("headerHidden");
+	originsToggle.classList.toggle("headerHidden");
+	x.classList.toggle("change");
 }

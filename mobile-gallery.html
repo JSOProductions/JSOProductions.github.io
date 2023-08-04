@@ -21,179 +21,192 @@
 		<!-- Header -->
 		<header>
 			<ul class="header">
-				<li class="header">
-					<a class="" href="./origins.html">
-						<img class="header" src="./src/Logo.png" width="45" height="45" alt="Logo" />
-					</a>
+				<li class="headerToggle" onclick="Menu(this)">
+					<h1 class="headerToggle">></h1>
 				</li>
 				<li class="header">
 					<a class="header" href="./index.html">JackStudios</a>
 				</li>
+				<li class="header headerHidden" id="contactToggle">
+					<a class="header" href="./contact.html">Contact Us</a>
+				</li>
+				<li class="header headerHidden" id="productsToggle">
+					<a class="header" href="./products.html">Products</a>
+				</li>
+				<li class="header headerHidden" id="originsToggle">
+					<a class="header" href="./origins.html">Our Origins</a>
+				</li>
+			</ul>
+			<ul class="logo header">
+				<li class="header">
+					<img class="header" src="./src/Logo.png" alt="logo" width="45" height="45" />
+				</li>
 			</ul>
 		</header>
+		<!-- Gallery -->
 		<section>
-		<article class="mobile-gallery">
-				<center>
-				<h2>My Photography</h2>
-				</center>
-				<div class="overflow">
-					<div class="bubbles">
-						<div class="gallery">
-							<img src="./src/images/lowRes/Bubble1.JPG" alt="bubble 1" width="600" height="400" onclick="openModal();currentSlide(1)" class="hover-shadow">
-							<div class="desc">Bubbles 1</div>
-						</div>
-						<div class="gallery">
-							<img src="./src/images/lowRes/Bubble2.JPG" alt="bubble 2" width="600" height="400" onclick="openModal();currentSlide(2)" class="hover-shadow">
-							<div class="desc">Bubbles 2</div>
-						</div>
-						<div class="gallery">
-							<img src="./src/images/lowRes/Bubble3.JPG" alt="bubble 3" width="600" height="400" onclick="openModal();currentSlide(3)" class="hover-shadow">
-							<div class="desc">Bubbles 3</div>
-						</div>
-						<div class="gallery">
-							<img src="./src/images/lowRes/Bubble4.JPG" alt="bubble 4" width="600" height="400" onclick="openModal();currentSlide(4)" class="hover-shadow">
-							<div class="desc">Bubbles 4</div>
-						</div>
-						<div class="gallery">
-							<img src="./src/images/lowRes/Bubble5.JPG" alt="bubble 5" width="600" height="400" onclick="openModal();currentSlide(5)" class="hover-shadow">
-							<div class="desc">Bubbles 5</div>
-						</div>
-					</div>
-					<div id="myModal" class="modal">
-					  <span class="close cursor" onclick="closeModal()">&times;</span>
-					  <div class="modal-content">
-						<center>
-						<div class="mySlides">
-						  <img src="./src/images/highRes/Bubble1.JPG" style="width:100%">
-						</div>
-	
-						<div class="mySlides">
-							<img src="./src/images/highRes/Bubble2.JPG" style="width:100%">
-						</div>
-
-						<div class="mySlides">
-							<img src="./src/images/highRes/Bubble3.JPG" style="width:100%">
-						</div>
-
-						<div class="mySlides">
-							<img src="./src/images/highRes/Bubble4.JPG" style="width:100%">
-						</div>
-						<div class="mySlides">
-							<img src="./src/images/highRes/Bubble5.JPG" style="width:100%">
-						</div>
-						</center>
-						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-						<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-						<div class="caption-container">
-						  <p id="caption"></p>
-						</div>
-						<div class="columz">
-							<center>
-							<div class="columnz">
-							  <img class="demo" src="./src/images/highRes/Bubble1.JPG" onclick="currentSlide(1)" alt="bubble 1" width="95%">
-							</div>
-
-							<div class="columnz">
-							  <img class="demo" src="./src/images/highRes/Bubble2.JPG" onclick="currentSlide(2)" alt="bubble 2" width="95%">
-							</div>
-
-							<div class="columnz">
-							  <img class="demo" src="./src/images/highRes/Bubble3.JPG" onclick="currentSlide(3)" alt="bubble 3" width="95%">
-							</div>
-
-							<div class="columnz">
-							  <img class="demo" src="./src/images/highRes/Bubble4.JPG" onclick="currentSlide(4)" alt="bubble 4" width="95%">
-							</div>
-							
-							<div class="columnz">
-							  <img class="demo" src="./src/images/highRes/Bubble5.JPG" onclick="currentSlide(5)" alt="bubble 5" width="95%">
-							</div>
-							</center>
-						</div>
-					</div>
-					</div>
-					</div>
+			<article class="mobile-gallery">
+					<center>
+					<h2>My Photography</h2>
+					</center>
 					<div class="overflow">
-					<div class="other">
-						<div class="gallery">
-							<img src="./src/images/lowRes/g1.JPG" alt="Sunset" width="600" height="400" onclick="openModal2();currentSlide2(1)" class="hover-shadow">
-							<div class="desc">Sunset</div>
+						<div class="bubbles">
+							<div class="gallery">
+								<img src="./src/images/lowRes/Bubble1.JPG" alt="bubble 1" width="600" height="400" onclick="openModal();currentSlide(1)" class="hover-shadow">
+								<div class="desc">Bubbles 1</div>
+							</div>
+							<div class="gallery">
+								<img src="./src/images/lowRes/Bubble2.JPG" alt="bubble 2" width="600" height="400" onclick="openModal();currentSlide(2)" class="hover-shadow">
+								<div class="desc">Bubbles 2</div>
+							</div>
+							<div class="gallery">
+								<img src="./src/images/lowRes/Bubble3.JPG" alt="bubble 3" width="600" height="400" onclick="openModal();currentSlide(3)" class="hover-shadow">
+								<div class="desc">Bubbles 3</div>
+							</div>
+							<div class="gallery">
+								<img src="./src/images/lowRes/Bubble4.JPG" alt="bubble 4" width="600" height="400" onclick="openModal();currentSlide(4)" class="hover-shadow">
+								<div class="desc">Bubbles 4</div>
+							</div>
+							<div class="gallery">
+								<img src="./src/images/lowRes/Bubble5.JPG" alt="bubble 5" width="600" height="400" onclick="openModal();currentSlide(5)" class="hover-shadow">
+								<div class="desc">Bubbles 5</div>
+							</div>
 						</div>
-						<div class="gallery">
-							<img src="./src/images/lowRes/g2.JPG" alt="Campfire" width="600" height="400" onclick="openModal2();currentSlide2(2)" class="hover-shadow">
-							<div class="desc">Campfire</div>
-						</div>
-						<div class="gallery">
-							<img src="./src/images/lowRes/g3.JPG" alt="Little Bluejay" width="600" height="400" onclick="openModal2();currentSlide2(3)" class="hover-shadow">
-							<div class="desc">Little Bluejay</div>
-						</div>
-						<div class="gallery">
-							<img src="./src/images/lowRes/g4.JPG" alt="Glaciers" width="600" height="400" onclick="openModal2();currentSlide2(4)" class="hover-shadow">
-							<div class="desc">Glaciers</div>
-						</div>
-						<div class="gallery">
-							<img src="./src/images/lowRes/g5.JPG" alt="Glass Sphere" width="600" height="400" onclick="openModal2();currentSlide2(5)" class="hover-shadow">
-							<div class="desc">Glass Sphere</div>
-						</div>
-					</div>
-					<div id="myModal2" class="modal2">
-					  <span class="close cursor" onclick="closeModal2()">&times;</span>
-					  <div class="modal-content2">
-						<center>
-						<div class="mySlides2">
-							<img src="./src/images/highRes/g1.JPG" style="width:100%">
-						</div>
-	
-						<div class="mySlides2">
-							<img src="./src/images/highRes/g2.JPG" style="width:100%">
-						</div>
-
-						<div class="mySlides2">
-							<img src="./src/images/highRes/g3.JPG" style="width:100%">
-						</div>
-
-						<div class="mySlides2">
-							<img src="./src/images/highRes/g4.JPG" style="width:100%">
-						</div>
-						<div class="mySlides2">
-							<img src="./src/images/highRes/g5.JPG" style="width:100%">
-						</div>
-						</center>
-						<a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
-						<a class="next" onclick="plusSlides2(1)">&#10095;</a>
-
-						<div class="caption-container">
-						  <p id="caption2"></p>
-						</div>
-						<div class="columz">
+						<div id="myModal" class="modal">
+						  <span class="close cursor" onclick="closeModal()">&times;</span>
+						  <div class="modal-content">
 							<center>
-							<div class="columnz">
-							  <img class="demo2" src="./src/images/lowRes/g1.JPG" onclick="currentSlide2(1)" alt="Sunset" width="95%">
+							<div class="mySlides">
+							  <img src="./src/images/highRes/Bubble1.JPG" style="width:100%">
+							</div>
+		
+							<div class="mySlides">
+								<img src="./src/images/highRes/Bubble2.JPG" style="width:100%">
 							</div>
 
-							<div class="columnz">
-							  <img class="demo2" src="./src/images/lowRes/g2.JPG" onclick="currentSlide2(2)" alt="Campfire" width="95%">
+							<div class="mySlides">
+								<img src="./src/images/highRes/Bubble3.JPG" style="width:100%">
 							</div>
 
-							<div class="columnz">
-							  <img class="demo2" src="./src/images/lowRes/g3.JPG" onclick="currentSlide2(3)" alt="Little Bluejay" width="95%">
+							<div class="mySlides">
+								<img src="./src/images/highRes/Bubble4.JPG" style="width:100%">
 							</div>
-
-							<div class="columnz">
-							  <img class="demo2" src="./src/images/lowRes/g4.JPG" onclick="currentSlide2(4)" alt="Glaciers" width="95%">
-							</div>
-							
-							<div class="columnz">
-							  <img class="demo2" src="./src/images/lowRes/g5.JPG" onclick="currentSlide2(5)" alt="Glass Sphere" width="95%">
+							<div class="mySlides">
+								<img src="./src/images/highRes/Bubble5.JPG" style="width:100%">
 							</div>
 							</center>
+							<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+							<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+							<div class="caption-container">
+							  <p id="caption"></p>
+							</div>
+							<div class="columz">
+								<center>
+								<div class="columnz">
+								  <img class="demo" src="./src/images/highRes/Bubble1.JPG" onclick="currentSlide(1)" alt="bubble 1" width="95%">
+								</div>
+
+								<div class="columnz">
+								  <img class="demo" src="./src/images/highRes/Bubble2.JPG" onclick="currentSlide(2)" alt="bubble 2" width="95%">
+								</div>
+
+								<div class="columnz">
+								  <img class="demo" src="./src/images/highRes/Bubble3.JPG" onclick="currentSlide(3)" alt="bubble 3" width="95%">
+								</div>
+
+								<div class="columnz">
+								  <img class="demo" src="./src/images/highRes/Bubble4.JPG" onclick="currentSlide(4)" alt="bubble 4" width="95%">
+								</div>
+								
+								<div class="columnz">
+								  <img class="demo" src="./src/images/highRes/Bubble5.JPG" onclick="currentSlide(5)" alt="bubble 5" width="95%">
+								</div>
+								</center>
+							</div>
 						</div>
-					  </div>
-					  </div>
+						</div>
+						</div>
+						<div class="overflow">
+						<div class="other">
+							<div class="gallery">
+								<img src="./src/images/lowRes/g1.JPG" alt="Sunset" width="600" height="400" onclick="openModal2();currentSlide2(1)" class="hover-shadow">
+								<div class="desc">Sunset</div>
+							</div>
+							<div class="gallery">
+								<img src="./src/images/lowRes/g2.JPG" alt="Campfire" width="600" height="400" onclick="openModal2();currentSlide2(2)" class="hover-shadow">
+								<div class="desc">Campfire</div>
+							</div>
+							<div class="gallery">
+								<img src="./src/images/lowRes/g3.JPG" alt="Little Bluejay" width="600" height="400" onclick="openModal2();currentSlide2(3)" class="hover-shadow">
+								<div class="desc">Little Bluejay</div>
+							</div>
+							<div class="gallery">
+								<img src="./src/images/lowRes/g4.JPG" alt="Glaciers" width="600" height="400" onclick="openModal2();currentSlide2(4)" class="hover-shadow">
+								<div class="desc">Glaciers</div>
+							</div>
+							<div class="gallery">
+								<img src="./src/images/lowRes/g5.JPG" alt="Glass Sphere" width="600" height="400" onclick="openModal2();currentSlide2(5)" class="hover-shadow">
+								<div class="desc">Glass Sphere</div>
+							</div>
+						</div>
+						<div id="myModal2" class="modal2">
+						  <span class="close cursor" onclick="closeModal2()">&times;</span>
+						  <div class="modal-content2">
+							<center>
+							<div class="mySlides2">
+								<img src="./src/images/highRes/g1.JPG" style="width:100%">
+							</div>
+		
+							<div class="mySlides2">
+								<img src="./src/images/highRes/g2.JPG" style="width:100%">
+							</div>
+
+							<div class="mySlides2">
+								<img src="./src/images/highRes/g3.JPG" style="width:100%">
+							</div>
+
+							<div class="mySlides2">
+								<img src="./src/images/highRes/g4.JPG" style="width:100%">
+							</div>
+							<div class="mySlides2">
+								<img src="./src/images/highRes/g5.JPG" style="width:100%">
+							</div>
+							</center>
+							<a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+							<a class="next" onclick="plusSlides2(1)">&#10095;</a>
+
+							<div class="caption-container">
+							  <p id="caption2"></p>
+							</div>
+							<div class="columz">
+								<center>
+								<div class="columnz">
+								  <img class="demo2" src="./src/images/lowRes/g1.JPG" onclick="currentSlide2(1)" alt="Sunset" width="95%">
+								</div>
+
+								<div class="columnz">
+								  <img class="demo2" src="./src/images/lowRes/g2.JPG" onclick="currentSlide2(2)" alt="Campfire" width="95%">
+								</div>
+
+								<div class="columnz">
+								  <img class="demo2" src="./src/images/lowRes/g3.JPG" onclick="currentSlide2(3)" alt="Little Bluejay" width="95%">
+								</div>
+
+								<div class="columnz">
+								  <img class="demo2" src="./src/images/lowRes/g4.JPG" onclick="currentSlide2(4)" alt="Glaciers" width="95%">
+								</div>
+								
+								<div class="columnz">
+								  <img class="demo2" src="./src/images/lowRes/g5.JPG" onclick="currentSlide2(5)" alt="Glass Sphere" width="95%">
+								</div>
+								</center>
+							</div>
+						</div>
+					</div>
 				</div>
 			</article>
-			</section>
+		</section>
 		<!-- Footer -->
 		<footer>
 			<br />

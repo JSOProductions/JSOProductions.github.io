@@ -1,78 +1,129 @@
 /** Header **/
-ul.header {
-    position: fixed;
-    float: left;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    border-radius: 5px;
-    z-index: 100;
-}
+	ul.header {
+		position: fixed;
+		float: left;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #333;
+		border-radius: 5px;
+		z-index: 100;
+		top: 8px;
+		left: 8px;
+	}
+	
+	ul.logo {
+		float: right;
+		right: 8px;
+		left: unset;
+	}
+	
+	.headerToggle {
+	  transition: 0.4s;
+	}
 
-li.header {
-    float: left;
-}
+	.change {
+		transform: scaleX(-1);
+		width: auto;
+		display: block;
+	}
 
-li a.header {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-}
+	.headerHidden {
+		display: none;
+	}
 
-li a:hover.header {
-    background-color: #111;
-}
+	.header li:hover {
+		cursor: pointer;
+		background-color: #111;
+	}
 
-a img.header {
-    display: block;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    float: right;
-    padding: 2px 6px;
-}
+	li.header {
+		float: left;
+	}
 
-a img:hover.header {
-    background-color: #111;
-}
+	li.headerLogo {
+		float: right;
+		position: absolute;
+	}
+
+	li.headerToggle {
+		float: right;
+	}
+
+	h1.headerToggle {
+		padding: 8px;
+		margin: 0;
+		float: right;
+	}
+
+	li a.header {
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 16px;
+		text-decoration: none;
+	}
+
+	li a:hover.header {
+		background-color: #111;
+	}
+
+	img.header {
+		display: block;
+		color: white;
+		text-align: center;
+		text-decoration: none;
+		float: right;
+		padding: 2px 6px;
+	}
+
+	img:hover.header {
+		background-color: #111;
+	}
+
+
+
 
 /** Scrollbar **/
-::-webkit-scrollbar {
-    display: none;
-}
+	::-webkit-scrollbar {
+		display: none;
+	}
+
+
+
+
 
 /** Footer **/
-footer {
-    padding: 3px;
-    background-color: black;
-    color: white;
-    margin-top: auto;
-    margin-left: -8px;
-    margin-right: -8px;
-}
+	footer {
+		padding: 3px;
+		background-color: black;
+		color: white;
+		margin-top: auto;
+		margin-left: -16px;
+		margin-right: -16px;
+	}
 
-.footerclass {
-    background-color: black;
-    padding-right: 15px;
-}
+	.footerclass {
+		background-color: black;
+		padding-right: 15px;
+	}
 
-.footerimg {
-    border-radius: 25px;
-    background-color: white;
-    padding-right: 3px;
-}
+	.footerimg {
+		border-radius: 25px;
+		background-color: white;
+		padding-right: 3px;
+	}
+
+
 
 /** Slider **/
-.switch {
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 34px;
-}
+	.switch {
+		position: relative;
+		display: inline-block;
+		width: 60px;
+		height: 34px;
+	}
 
     .switch input {
         opacity: 0;
@@ -80,17 +131,17 @@ footer {
         height: 0;
     }
 
-.slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    -webkit-transition: .4s;
-    transition: .4s;
-}
+	.slider {
+		position: absolute;
+		cursor: pointer;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: #ccc;
+		-webkit-transition: .4s;
+		transition: .4s;
+	}
 
     .slider:before {
         position: absolute;
@@ -104,23 +155,23 @@ footer {
         transition: .4s;
     }
 
-input:checked + .slider {
-    background-color: #2196F3;
-}
+	input:checked + .slider {
+		background-color: #2196F3;
+	}
 
-input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
-}
+	input:focus + .slider {
+		box-shadow: 0 0 1px #2196F3;
+	}
 
-input:checked + .slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
-}
+	input:checked + .slider:before {
+		-webkit-transform: translateX(26px);
+		-ms-transform: translateX(26px);
+		transform: translateX(26px);
+	}
 
-.slider.round {
-    border-radius: 34px;
-}
+	.slider.round {
+		border-radius: 34px;
+	}
 
     .slider.round:before {
         border-radius: 50%;
