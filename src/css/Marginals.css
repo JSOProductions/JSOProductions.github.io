@@ -1,85 +1,35 @@
 /** Header **/
-	ul.header {
-		position: fixed;
-		float: left;
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-		overflow: hidden;
-		background-color: #333;
-		border-radius: 5px;
-		z-index: 100;
-		top: 8px;
-		left: 8px;
+	/* Fixes Header Padding */
+	header {
+		margin: -16px;
 	}
 	
-	ul.logo {
-		float: right;
-		right: 8px;
-		left: unset;
-	}
-	
-	.headerToggle {
-	  transition: 0.4s;
+	/* Add a black background color to the top navigation */
+	.Nav {
+	  background-color: #333;
+	  overflow: hidden;
 	}
 
-	.change {
-		transform: scaleX(-1);
-		width: auto;
-		display: block;
+	/* Style the links inside the navigation bar */
+	.Nav a {
+	  float: left;
+	  color: #f2f2f2;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-size: 17px;
 	}
 
-	.headerHidden {
-		display: none;
+	/* Change the color of links on hover */
+	.Nav a:hover {
+	  background-color: #ddd;
+	  color: black;
 	}
 
-	.header li:hover {
-		cursor: pointer;
-		background-color: #111;
-	}
-
-	li.header {
-		float: left;
-	}
-
-	li.headerLogo {
-		float: right;
-		position: absolute;
-	}
-
-	li.headerToggle {
-		float: right;
-	}
-
-	h1.headerToggle {
-		padding: 8px;
-		margin: 0;
-		float: right;
-	}
-
-	li a.header {
-		display: block;
-		color: white;
-		text-align: center;
-		padding: 16px;
-		text-decoration: none;
-	}
-
-	li a:hover.header {
-		background-color: #111;
-	}
-
-	img.header {
-		display: block;
-		color: white;
-		text-align: center;
-		text-decoration: none;
-		float: right;
-		padding: 2px 6px;
-	}
-
-	img:hover.header {
-		background-color: #111;
+	/* Add a color to the active/current link */
+	.Nav a.active {
+	  background-color: #04AA6D;
+	  color: white;
 	}
 
 
