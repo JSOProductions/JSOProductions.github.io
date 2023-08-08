@@ -220,6 +220,9 @@ img.hover-shadow {
 	article.hide{
 		display: none;
 	}
+	.hide {
+		display: none;
+	}
 }
 
 @media screen and (min-width: 801px) {
