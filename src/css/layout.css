@@ -52,6 +52,11 @@ section::after {
   padding: 0 8px;
 }
 
+body {
+	padding-left: 8px;
+	padding-right: 8px
+}
+
 .container {
   padding: 16px;
 }
