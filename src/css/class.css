@@ -31,3 +31,47 @@
 .socials {
 	display: flex;
 }
+
+/* Blog */
+aside.blogContainer {
+	background-color: #252525;
+	display: grid;
+	padding: 15px;
+	height: 325px;
+}
+
+article.blogContainer {
+	border-style: none solid none none;
+	border-color: #2e2e2e;
+	overflow: scroll;
+	height: 315px;
+}
+
+.blogCard {
+	display: inline;
+	background-color: #2e2e2e;
+	border-radius: 5px;
+	margin: 5px;
+	height: 85px;
+}
+
+.blogCard p {
+	font-size: 15px;
+	position: absolute;
+	padding-top: 20px;
+	margin: revert;
+	background-color: unset;
+}
+
+.blogImg {
+	width: 75px;
+	padding-right: 5px;
+	margin: 5px;
+}
+
+.blogTitle {
+	display: inline;
+	position: absolute;
+	padding-top: 5px;
+	z-index: 50;
+}
