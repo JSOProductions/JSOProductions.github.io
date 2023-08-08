@@ -39,96 +39,87 @@
 			</div>
 		</section>
 		
-		<!-- Gallery, Mission, Offer -->
-		<section>
-			<br /><br /><br />
-			<div class="sectionA" style="display: flex;">
-			<!-- Gallery -->
-			<article class="gallery hide">
-				<center>
-				<h2>My Photography</h2>
-				</center>
-				<div class="overflow">
-					<div class="bubbles">
-						<div class="gallery">
-							<img src="./src/images/lowRes/Bubble1.webp" alt="bubble 1" width="600" height="400" onclick="openModal();currentSlide(1)" class="hover-shadow">
-							<div class="desc">Bubbles 1</div>
-						</div>
-						<div class="gallery">
-							<img src="./src/images/lowRes/Bubble2.webp" alt="bubble 2" width="600" height="400" onclick="openModal();currentSlide(2)" class="hover-shadow">
-							<div class="desc">Bubbles 2</div>
-						</div>
-						<div class="gallery">
-							<img src="./src/images/lowRes/Bubble3.webp" alt="bubble 3" width="600" height="400" onclick="openModal();currentSlide(3)" class="hover-shadow">
-							<div class="desc">Bubbles 3</div>
-						</div>
-						<div class="gallery">
-							<img src="./src/images/lowRes/Bubble4.webp" alt="bubble 4" width="600" height="400" onclick="openModal();currentSlide(4)" class="hover-shadow">
-							<div class="desc">Bubbles 4</div>
-						</div>
-						<div class="gallery">
-							<img src="./src/images/lowRes/Bubble5.webp" alt="bubble 5" width="600" height="400" onclick="openModal();currentSlide(5)" class="hover-shadow">
-							<div class="desc">Bubbles 5</div>
-						</div>
+		<!-- Gallery -->
+		<section class="gallery hide">
+			<center>
+			<h2>My Photography</h2>
+			</center>
+			<div class="overflow">
+				<div class="bubbles">
+					<div class="gallery">
+						<img src="./src/images/lowRes/Bubble1.webp" alt="bubble 1" width="600" height="400" onclick="openModal();currentSlide(1)" class="hover-shadow">
+						<div class="desc">Bubbles 1</div>
 					</div>
-					<div id="myModal" class="modal">
-					  <span class="close cursor" onclick="closeModal()">&times;</span>
-					  <div class="modal-content">
+					<div class="gallery">
+						<img src="./src/images/lowRes/Bubble2.webp" alt="bubble 2" width="600" height="400" onclick="openModal();currentSlide(2)" class="hover-shadow">
+						<div class="desc">Bubbles 2</div>
+					</div>
+					<div class="gallery">
+						<img src="./src/images/lowRes/Bubble3.webp" alt="bubble 3" width="600" height="400" onclick="openModal();currentSlide(3)" class="hover-shadow">
+						<div class="desc">Bubbles 3</div>
+					</div>
+					<div class="gallery">
+						<img src="./src/images/lowRes/Bubble4.webp" alt="bubble 4" width="600" height="400" onclick="openModal();currentSlide(4)" class="hover-shadow">
+						<div class="desc">Bubbles 4</div>
+					</div>
+					<div class="gallery">
+						<img src="./src/images/lowRes/Bubble5.webp" alt="bubble 5" width="600" height="400" onclick="openModal();currentSlide(5)" class="hover-shadow">
+						<div class="desc">Bubbles 5</div>
+					</div>
+				</div>
+				<div id="myModal" class="modal">
+				  <span class="close cursor" onclick="closeModal()">&times;</span>
+				  <div class="modal-content">
+					<center>
+					<div class="mySlides">
+					  <img class="slides" src="./src/images/highRes/Bubble1.webp">
+					</div>
+						<div class="mySlides">
+						<img class="slides" src="./src/images/highRes/Bubble2.webp">
+					</div>
+					<div class="mySlides">
+						<img class="slides" src="./src/images/highRes/Bubble3.webp">
+					</div>
+
+					<div class="mySlides">
+						<img class="slides" src="./src/images/highRes/Bubble4.webp">
+					</div>
+					<div class="mySlides">
+						<img class="slides" src="./src/images/highRes/Bubble5.webp">
+					</div>
+					</center>
+					<a role="button" class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a role="button" class="next" onclick="plusSlides(1)">&#10095;</a>
+
+					<div class="caption-container">
+					  <p id="caption"></p>
+					</div>
+					<div class="columz">
 						<center>
-						<div class="mySlides">
-						  <img class="slides" src="./src/images/highRes/Bubble1.webp">
+						<div class="columnz">
+						  <img class="demo" src="./src/images/highRes/Bubble1.webp" onclick="currentSlide(1)" alt="bubble 1" >
 						</div>
-	
-						<div class="mySlides">
-							<img class="slides" src="./src/images/highRes/Bubble2.webp">
+						<div class="columnz">
+						  <img class="demo" src="./src/images/highRes/Bubble2.webp" onclick="currentSlide(2)" alt="bubble 2" >
 						</div>
-
-						<div class="mySlides">
-							<img class="slides" src="./src/images/highRes/Bubble3.webp">
+						<div class="columnz">
+						  <img class="demo" src="./src/images/highRes/Bubble3.webp" onclick="currentSlide(3)" alt="bubble 3" >
 						</div>
-
-						<div class="mySlides">
-							<img class="slides" src="./src/images/highRes/Bubble4.webp">
+						<div class="columnz">
+						  <img class="demo" src="./src/images/highRes/Bubble4.webp" onclick="currentSlide(4)" alt="bubble 4" >
 						</div>
-						<div class="mySlides">
-							<img class="slides" src="./src/images/highRes/Bubble5.webp">
+							
+						<div class="columnz">
+						  <img class="demo" src="./src/images/highRes/Bubble5.webp" onclick="currentSlide(5)" alt="bubble 5" >
 						</div>
 						</center>
-						<a role="button" class="prev" onclick="plusSlides(-1)">&#10094;</a>
-						<a role="button" class="next" onclick="plusSlides(1)">&#10095;</a>
-
-						<div class="caption-container">
-						  <p id="caption"></p>
-						</div>
-						<div class="columz">
-							<center>
-							<div class="columnz">
-							  <img class="demo" src="./src/images/highRes/Bubble1.webp" onclick="currentSlide(1)" alt="bubble 1" >
-							</div>
-
-							<div class="columnz">
-							  <img class="demo" src="./src/images/highRes/Bubble2.webp" onclick="currentSlide(2)" alt="bubble 2" >
-							</div>
-
-							<div class="columnz">
-							  <img class="demo" src="./src/images/highRes/Bubble3.webp" onclick="currentSlide(3)" alt="bubble 3" >
-							</div>
-
-							<div class="columnz">
-							  <img class="demo" src="./src/images/highRes/Bubble4.webp" onclick="currentSlide(4)" alt="bubble 4" >
-							</div>
-							
-							<div class="columnz">
-							  <img class="demo" src="./src/images/highRes/Bubble5.webp" onclick="currentSlide(5)" alt="bubble 5" >
-							</div>
-							</center>
-						</div>
 					</div>
-					</div>
-					<div class="other">
-						<div class="gallery">
-							<img src="./src/images/lowRes/g1.webp" alt="Sunset" width="600" height="400" onclick="openModal2();currentSlide2(1)" class="hover-shadow">
-							<div class="desc">Sunset</div>
+				</div>
+			</div>
+				<div class="other">
+				<div class="gallery">
+						<img src="./src/images/lowRes/g1.webp" alt="Sunset" width="600" height="400" onclick="openModal2();currentSlide2(1)" class="hover-shadow">
+						<div class="desc">Sunset</div>
 						</div>
 						<div class="gallery">
 							<img src="./src/images/lowRes/g2.webp" alt="Campfire" width="600" height="400" onclick="openModal2();currentSlide2(2)" class="hover-shadow">
@@ -147,31 +138,30 @@
 							<div class="desc">Glass Sphere</div>
 						</div>
 					</div>
-					<div id="myModal2" class="modal2">
-					  <span class="close cursor" onclick="closeModal2()">&times;</span>
-					  <div class="modal-content2">
-						<center>
+				<div id="myModal2" class="modal2">
+				  <span class="close cursor" onclick="closeModal2()">&times;</span>
+				  <div class="modal-content2">
+					<center>
+					<div class="mySlides2">
+						<img class="slides" src="./src/images/highRes/g1.webp">
+					</div>
 						<div class="mySlides2">
-							<img class="slides" src="./src/images/highRes/g1.webp">
-						</div>
-	
-						<div class="mySlides2">
-							<img class="slides" src="./src/images/highRes/g2.webp">
-						</div>
+						<img class="slides" src="./src/images/highRes/g2.webp">
+					</div>
 
-						<div class="mySlides2">
-							<img class="slides" src="./src/images/highRes/g3.webp">
-						</div>
-
-						<div class="mySlides2">
-							<img class="slides" src="./src/images/highRes/g4.webp">
-						</div>
-						<div class="mySlides2">
-							<img class="slides" src="./src/images/highRes/g5.webp">
-						</div>
-						</center>
-						<a role="button" class="prev" onclick="plusSlides2(-1)">&#10094;</a>
-						<a role="button" class="next" onclick="plusSlides2(1)">&#10095;</a>
+					<div class="mySlides2">
+						<img class="slides" src="./src/images/highRes/g3.webp">
+					</div>
+						
+					<div class="mySlides2">
+						<img class="slides" src="./src/images/highRes/g4.webp">
+					</div>
+					<div class="mySlides2">
+						<img class="slides" src="./src/images/highRes/g5.webp">
+					</div>
+					</center>
+					<a role="button" class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+					<a role="button" class="next" onclick="plusSlides2(1)">&#10095;</a>
 
 						<div class="caption-container">
 						  <p id="caption2"></p>
@@ -202,27 +192,8 @@
 					  </div>
 					</div>
 				</div>
-			</article>
-			<!-- Mission, Offer -->
-			<aside style="display: grid;">
-				<!-- Mission -->
-				<center>
-					<br />
-					<h2>Our Mission</h2>
-					<br />
-					<p>At JackStudios our goal is to develop and engineer innovative products with the hope that as a whole we can make an impact on peoples lives and aid in the construction and maitenance of the worlds poorest places. 
-						Overall our main goal at JackStudios is to make the world a better place</p>
-				</center>
-				<!-- Offer -->
-				<center>
-					<h2>What we offer</h2>
-					<br />
-					<p>To read the range of things we offer please see our <a href="./products.html">Products Page</a></p>
-					<br />
-				</center>	
-			</aside>
-			</div>
-		</section>
+			</section>
+		
 		<br />
 		<!-- Mobile Gallery -->
 		<section>
@@ -237,132 +208,7 @@
 				<br>
 			</aside>
 		</section>
-		<!-- Contact, Socials -->
-		<section>
-			<div class="sectionA" style="display: flex;">
-			
-			<article style="display: grid;">
-				<div style="position: relative;">
-					<center>
-						<br />
-						<h2>Get In Touch</h2>
-						<p>We would love to have a chat <br /> For any enquiries please:</p>
-						<button class="button contact">
-								<a class="buttona" href="./contact.html">Contact Us</a>
-						</button>
-					</center>
-				</div>
-				<br />
-			</article>
-			<aside>
-				<br />
-				<center>
-					<h2>Socials</h2>
-					<br />
-					<button class="button youtube" onclick="window.location.href='https://www.youtube.com/@JSOProductions';">YouTube</button>
-					<button class="button insta" onclick="window.location.href='https://instagram.com/';">Instagram</button>
-					<button class="button discord" onclick="window.location.href='https://discord.gg/CMwf5jpd63';">Discord</button>
-					<button class="button twitch" onclick="window.location.href='https://twitch.tv/Woodsy279';">Twitch</button>
-					<button class="button itch" onclick="window.location.href='https://minecrafterx279.itch.io';">Itch</button>
-				</center>
-				<br />
-			</aside>
-			<br />
-			</div>
-		</section>
-
-		<!-- Team -->
-		<!--<section>
-			<center class="hide">
-			<section>
-				<aside>
-					<h2>Meet The Team</h2>
-					<br />
-				</aside>
-				<br />
-			</section>
-			</center>
-			<center class="row hide" style="display: flex;">	
-				<div class="column" style="display: inherit;">
-					<div class="card">
-						<img class="banner" src="./src/images/Team/Jack Woods/Jack.png" alt="Jack">
-						<div class="container">
-							<h2>Jack Woods</h2>
-							<p class="title">CEO &amp; Founder</p>
-							<p>Hey! I'm jack, I created JSOProductions from the ground up, read more about our origins at our <a href="./origins.html">Origins page</a> to see how we got to where we are today</p>
-							<p style="font-size: 15px;">jack.jsoproductions@outlook.com</p>
-							<button style="width: 100%;" class="contactus button"><a href="mailto:jack.jsoproductions@outlook.com" subject="Hi, I'd like to chat">Contact</a></button>
-						</div>
-					</div>
-				</div>
-				<div class="column" style="display: inherit;">
-					<div class="card">
-						<img class="banner" src="./src/images/placeholder - 600x400.webp" alt="Leroy">
-						<div class="container">
-							<h2>Leroy Haimovich</h2>
-							<p class="title">COO &amp; Programmer</p>
-							<p>Replace Me</p>
-							<p style="font-size: 15px;">leroy.jsoproductions@outlook.com</p>
-							<button style="width: 100%;" class="contactus button"><a href="mailto:leroy.jsoproductions@outlook.com" subject="Hi, I'd like to chat">Contact</a></button>
-						</div>
-					</div>
-				</div>
-				<div class="column" style="display: inherit;">
-					<div class="card">
-						<img class="banner" src="./src/images/placeholder - 600x400.webp" alt="nothing">
-						<div class="container">
-							<h2>Hiring</h2>
-							<p class="title">Designer</p>
-							<p>This could be You</p>
-							<p style="font-size: 15px;">you.jsoproductions@outlook.com</p>
-							<button style="width: 100%;" class="contactus button"><a href="mailto:.jsoproductions@outlook.com" subject="Hi, I'd like to chat">Contact</a></button>
-						</div>
-					</div>
-				</div>
-			</center>
-		</section>
-		<br />-->
-		<!-- Games, Blank -->
-		<section>
-			<div class="row hide contactinfo">
-			<!-- Games -->
-			<article class="games column" style="margin-bottom: 0px;">
-				<center class="games">
-					<h2>Games</h2>
-				</center>
-				<div class="overflow" style="padding: 0 0 10px 10px;">
-					<center style="display: inline-flex;">
-					<div class="gallery">
-						<a href="./src/html/calGame.html" class="game">
-						<img src="./src/images/calcPromo.png" alt="calc game" width="600" height="400"/>
-						<h1>Calculator</h1>
-						</a>
-					</div>
-					<div class="gallery">
-						<a href="https://minecrafterx279.itch.io/poweroutage" class="game">
-						<img src="./src/images/Product Images/PowerOutage.png" alt="poweroutage" style="height: 120px; width: auto;"/>
-						<h1>PowerOutage</h1>
-						</a>
-					</div>
-					<div class="gallery">
-						<a href="https://minecrafterx279.itch.io/streamline" class="game">
-						<img src="./src/images/Product Images/StreamLine.png" alt="streamline" style="height: 120px; object-fit: cover;"/>
-						<h1>StreamLine</h1>
-						</a>
-					</div>
-					<div class="gallery">
-						<img src="./src/images/placeholder - 600x400.webp" alt="Empty"/>
-						<h1>TBD</h1>
-					</div>
-					</center>
-				</div>
-			</article>
-			<!-- Blank -->
-			<br />
-			</div>
-			</br>
-		</section>
-		</br>
+		
 		<!-- Footer -->
 		<footer>
 			<br />
