@@ -34,17 +34,6 @@ button a {
 	color: white;
 	text-decoration: none;
 }
-.contact {
-  background-color: darkgrey;
-  color: white; 
-  border: 4px solid gray;
-  border-radius: 4px;
-}
-
-.contact:hover {
-  background-color: gray;
-  color: white;
-}
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
