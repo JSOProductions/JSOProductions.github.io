@@ -205,6 +205,10 @@ img.hover-shadow {
   cursor: pointer;
 }
 
+.mobile-bubble {
+	width: -webkit-fill-available
+}
+
 /** Responsive Code **/
 @media screen and (max-width: 800px) {
 	div.hide {
