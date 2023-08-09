@@ -13,6 +13,10 @@
 	  background-color: #333;
 	  overflow: hidden;
 	}
+	
+	#settings {
+		float: right;
+	}
 
 	/* Style the links inside the navigation bar */
 	.Nav a {
@@ -28,6 +32,7 @@
 		float: right;
 		width: 45px;
 	}
+	
 
 	/* Change the color of links on hover */
 	.Nav a:hover {
