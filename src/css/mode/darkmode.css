@@ -47,3 +47,15 @@ button a {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: #2e2e2e;
 }
+
+aside.blogContainer {
+	background-color: #252525;
+}
+
+article.blogContainer {
+	border-color: #2e2e2e;
+}
+
+.blogCard {
+	background-color: #2e2e2e;
+}

@@ -40,3 +40,15 @@ button a {
   background-color: #e6e6e6;
   height: 100%;
 }
+
+aside.blogContainer {
+	background-color: #f1f1f1;
+}
+
+article.blogContainer {
+	border-color: lightgray;
+}
+
+.blogCard {
+	background-color: #e6e6e6;
+}

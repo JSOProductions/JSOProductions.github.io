@@ -34,7 +34,6 @@
 
 /* Blog */
 aside.blogContainer {
-	background-color: #252525;
 	display: grid;
 	padding: 15px;
 	height: 325px;
@@ -42,14 +41,12 @@ aside.blogContainer {
 
 article.blogContainer {
 	border-style: none solid none none;
-	border-color: #2e2e2e;
 	overflow: scroll;
 	height: 315px;
 }
 
 .blogCard {
 	display: inline;
-	background-color: #2e2e2e;
 	border-radius: 5px;
 	margin: 5px;
 	height: 85px;
