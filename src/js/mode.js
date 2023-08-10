@@ -43,12 +43,11 @@ darkModeToggle.addEventListener('click', () => {
   }
 });
 
-function Menu(x) {
-	let contactToggle = document.getElementById('contactToggle')
-	let productsToggle = document.getElementById('productsToggle')
-	let originsToggle = document.getElementById('originsToggle')
-	contactToggle.classList.toggle("headerHidden");
-	productsToggle.classList.toggle("headerHidden");
-	originsToggle.classList.toggle("headerHidden");
-	x.classList.toggle("change");
+function mobileMenu() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
 }

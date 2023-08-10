@@ -16,13 +16,15 @@
 		<link rel="stylesheet" href="./src/css/class.css" />
 		<link rel="stylesheet" href="./src/css/hoverbutton.css" />
 		<link rel="stylesheet" href="./src/css/mode/lightmode.css" id="cookieMode" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	
 	<body>
 		<!-- Header -->
 		<header>
+			<!-- Desktop -->
 			<center>
-			<div class="Nav">
+			<div class="Nav hide">
 				<a href="./index.html" class="active">Home</a>
 				<a href="./contact.html" class="">Contact</a>
 				<a href="./products.html" class="">Products</a>
@@ -32,13 +34,27 @@
 				<img src="./src/Logo.png" alt="logo" class="hide">
 			</div>
 			</center>
+			<!-- Mobile -->
+			<div class="topnav">
+				<a href="#home" class="active">Home</a>
+				<div id="myLinks">
+					<a href="./contact.html">Contact</a>
+					<a href="./products.html">Products</a>
+					<a href="./origins.html">About</a>
+					<a href="./gaming.html">Gaming</a>
+					<a href="./settings.html">Settings</a>
+				</div>
+				<a href="javascript:void(0);" class="icon" onclick="mobileMenu()">
+					<i class="fa fa-bars"></i>
+				</a>
+			</div>
 		</header>
 		<br />
 		<!-- Landing Image -->
 		<section>
 			<br />
 			<div>
-				<img src="./src/images/LandingImg.webp" alt="Cannot Load Image" style="width: 100%; object-fit: cover; height: 800px;"/>
+				<img src="./src/images/LandingImg.webp" alt="Cannot Load Image" class="landingImg"/>
 				<div><h2 class="centeredText">Jack Studios</h2></div>
 			</div>
 		</section>

@@ -32,6 +32,18 @@
 	display: flex;
 }
 
+.landingImg {
+	width: 100%; 
+	object-fit: cover; 
+	height: 800px;
+}
+
+@media screen and (max-width:900px) {
+	.landingImg {
+		width: 100%;
+	}
+}
+
 /* Blog */
 	aside.blogContainer {
 		display: grid;
