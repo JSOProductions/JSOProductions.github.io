@@ -1,0 +1,7 @@
+Sitemap: https://jsoproductions.github.io/sitemap.xml
+
+# global
+User-agent: *
+Allow: /
+
+Disallow: /src/html/hidden.html
