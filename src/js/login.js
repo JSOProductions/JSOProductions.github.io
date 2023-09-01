@@ -1,6 +1,6 @@
       var oktaConfig = {
         issuer: "https://dev-77563048-admin.okta.com/oauth2/default",
-        redirectUri: '${https://http://localhost:3000 configured in your Okta OIDC app integration}',
+        redirectUri: 'https://http://localhost:3000',
         clientId: "0oab2bnt5yBYqtSdo5d7"
       }
       // Search for URL Parameters to see if a user is being routed to the application to recover password
