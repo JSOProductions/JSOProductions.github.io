@@ -4,4 +4,4 @@ Sitemap: https://jsoproductions.github.io/sitemap.xml
 User-agent: *
 Allow: /
 
-Disallow: /src/html/hidden.html
+Disallow: /src/html/Hidden.html
