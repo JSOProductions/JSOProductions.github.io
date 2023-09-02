@@ -1,7 +1,7 @@
       var oktaConfig = {
-        issuer: "https://dev-77563048.okta.com/oauth2/default",
-        redirectUri: 'https://http://localhost:3000',
-        clientId: "0oab2bnt5yBYqtSdo5d7"
+        issuer: "https://dev-83242155.okta.com/oauth2/default",
+        redirectUri: "http://localhost:3000",
+        clientId: "0oab30deqekOQM9eB5d7"
       }
       // Search for URL Parameters to see if a user is being routed to the application to recover password
       var searchParams = new URL(window.location.href).searchParams;
