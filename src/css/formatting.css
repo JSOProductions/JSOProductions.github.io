@@ -40,3 +40,7 @@ p {
 .contactus:hover {
 	background: #383838;
 }
+
+.centeredText {
+	color: white;
+}

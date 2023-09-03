@@ -52,3 +52,8 @@ article.blogContainer {
 .blogCard {
 	background-color: #e6e6e6;
 }
+
+.fcf-form-control {
+	background-color: #e6e6e6;
+	color: black
+}
