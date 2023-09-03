@@ -27,7 +27,7 @@ section {
 p {
 	/*padding-left: 5px;
 	padding-right: 5px;*/
-	font-size: 20px;
+	font-size: 15px;
 }
 .button {
 	font-family: OCR;
@@ -39,8 +39,4 @@ p {
 }
 .contactus:hover {
 	background: #383838;
-}
-
-.centeredText {
-	color: white;
 }
