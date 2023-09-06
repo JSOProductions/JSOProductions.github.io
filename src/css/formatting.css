@@ -4,19 +4,19 @@ html {
 	overflow-x: hidden;
 }
 @font-face {
-	font-family: OCR;
-	src: url(../font/OCRAEXT.woff2);
+	font-family: Roboto;
+	src: url(../font/RobotoMono.ttf);
 	font-display: swap;
 }
 body {
-	font-family: OCR;
+	font-family: Roboto;
 	margin: 0;
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
 }
 a {
-	font-family: OCR;
+	font-family: Roboto;
     margin-bottom: 0;
 }
 
@@ -30,7 +30,7 @@ p {
 	font-size: 15px;
 }
 .button {
-	font-family: OCR;
+	font-family: Roboto;
 	border-radius: 5px;
 }
 .Mention {

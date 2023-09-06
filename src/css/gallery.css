@@ -210,30 +210,3 @@ img.hover-shadow {
 	width: -webkit-fill-available
 }
 
-/** Responsive Code **/
-@media screen and (max-width: 800px) {
-	div.hide {
-		display: none;
-	}
-	aside.show {
-		display: block;
-	}
-	article.hide{
-		display: none;
-	}
-	.hide {
-		display: none;
-	}
-}
-
-@media screen and (min-width: 801px) {
-	div.hide {
-		display: block;
-	}
-	aside.show {
-		display: none;
-	}
-	article.hide{
-		display: block;
-	}
-}
