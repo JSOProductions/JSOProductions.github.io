@@ -84,10 +84,16 @@
 		  background-color: #252525;
 		  color: white;
 		}
+		
+		.hide {
+			display: none;
+		}
 	}
 	
-	.topnav {
-		display: none;
+	@media screen and (min-width: 901px) {
+		.topnav {
+			display: none;
+		}
 	}
 
 

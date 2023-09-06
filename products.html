@@ -25,13 +25,14 @@
 		<link rel="stylesheet" href="./src/css/hoverbutton.css" />
 		<link rel="stylesheet" href="./src/css/class.css" />
 		<link rel="stylesheet" href="./src/css/mode/lightmode.css" id="cookieMode" />
+		<link rel="stylesheet" href="https://shorturl.at/akxAT">
 	</head>
 	
 	<body>
 		<!-- Header -->
 		<header>
-			<center>
-			<div class="Nav">
+			<!-- Desktop -->
+			<div class="Nav hide">
 				<a href="./index.html" class="">Home</a>
 				<a href="./contact.html" class="">Contact</a>
 				<a href="./products.html" class="active">Products</a>
@@ -41,7 +42,19 @@
 				<!--<a href="./settings.html" id="settings">Settings</a>-->
 				<img src="./src/Logo.png" alt="logo" class="hide">
 			</div>
-			</center>
+			
+			<!-- Mobile -->
+			<div class="topnav">
+			  <a href="./products.html" class="active">Products</a>
+			  <div id="myLinks">
+				<a href="./index.html">Home</a>
+				<a href="./contact.html">Contact</a>
+				<a href="./mobile-gallery.html">Gallery</a>
+			  </div>
+			  <a href="javascript:void(0);" class="icon" onclick="mobileMenu()">
+				<i class="fa fa-bars"></i>
+			  </a>
+			</div>
 		</header>
 		
 		<!-- Products -->

@@ -24,19 +24,38 @@
 		<link rel="stylesheet" href="./src/css/hoverbutton.css" />
 		<link rel="stylesheet" href="./src/css/mode/lightmode.css" id="cookieMode" />
 		<link rel="stylesheet" href="./src/css/mobile/mobile-gallery.css" />
+		<link rel="stylesheet" href="https://shorturl.at/akxAT">
 	</head>
 	
 	<body>
 		<!-- Header -->
 		<header>
-			<div class="Nav">
-				<a href="./index.html" class="">Home</a>
+			<!-- Desktop -->
+			<div class="Nav hide">
+				<a href="./index.html" class="active">Home</a>
 				<a href="./contact.html" class="">Contact</a>
 				<a href="./products.html" class="">Products</a>
 				<a href="./origins.html" class="">History</a>
-				<img src="./src/Logo.png" alt="logo">
+				<a href="./gaming.html" class="">Gaming</a>
+				<a href="./Assessment.html" class="">Assessment</a>
+				<!--<a href="./settings.html" id="settings">Settings</a>-->
+				<img src="./src/Logo.png" alt="logo" class="hide">
+			</div>
+			
+			<!-- Mobile -->
+			<div class="topnav">
+			  <a href="./mobile-gallery.html" class="active">Gallery</a>
+			  <div id="myLinks">
+				<a href="./index.html">Home</a>
+				<a href="./contact.html">Contact</a>
+				<a href="./products.html">Products</a>
+			  </div>
+			  <a href="javascript:void(0);" class="icon" onclick="mobileMenu()">
+				<i class="fa fa-bars"></i>
+			  </a>
 			</div>
 		</header>
+		
 		<!-- Gallery -->
 		<section>
 			<article class="mobile-gallery">
