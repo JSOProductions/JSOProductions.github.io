@@ -1,3 +1,11 @@
 .hide {
 	display: none;
 }
+
+#password {
+    background-color: #2e2e2e;
+    color: white;
+	border: none;
+    border-radius: 4px;
+	padding: 8px;
+}
