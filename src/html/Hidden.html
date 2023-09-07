@@ -13,25 +13,38 @@
 		<link rel="stylesheet" href="../css/layout.css" />
 		<link rel="stylesheet" href="../css/gallery.css" />
 		<link rel="stylesheet" href="../css/hoverbutton.css" />
-		<link rel="stylesheet" href="../css/lightmode.css" id="cookieMode" />
-		<link rel="stylesheet" href="../css/switch.css" />
+		<link rel="stylesheet" href="../css/mode/lightmode.css" id="cookieMode" />
+		<link rel="stylesheet" href="./src/css/hidden.css" id="hide">
 	</head>
 	
 	<body>
 		<!-- Header -->
 		<header>
-			<ul class="header">
-				<a class="header" href="">
-					<img class="header" src="../Logo.png" width="45" height="45" alt="Logo" />
-				</a>
-				<li class="header">
-					<a class="header" href="../../index.html">JackStudios</a>
-				</li>
-			</ul>
+			<!-- Desktop -->
+			<div class="Nav">
+				<a href="../../index.html" class="">Home</a>
+				<a href="../../contact.html" class="">Contact</a>
+				<a href="../../products.html" class="">Products</a>
+				<a href="../../origins.html" class="">History</a>
+				<a href="../../gaming.html" class="">Gaming</a>
+				<a href="../../Assessment.html" class="">Assessment</a>
+				<!--<a href="./settings.html" id="settings">Settings</a>-->
+				<img src="../Logo.png" alt="logo" class="">
+			</div>
 		</header>
-		<!-- Message -->
+		
+		<br /><br /><br /><br />
+		
+		<!-- Protection -->
 		<section>
 			<center>
+				<input type="number" id="password" name="password" placeholder="Password" required ></input>
+			</center>
+		</section>
+		
+		<!-- Message -->
+		<section>
+			<center id="Message" class="hide">
 				<article style="float: none; margin: 50px; width: auto;">
 					<center>
 						<h2>To the love of my life</h2>
@@ -78,5 +91,6 @@
 			<br />
 		</footer>
 		<script src="../js/mode.js"></script>
+		<script src="../js/hidden.js"></script>
 	</body>
 </html>
