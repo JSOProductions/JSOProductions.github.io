@@ -109,8 +109,8 @@
 /** Footer **/
 
 	.col {
-		float: left;
-		margin: 16px;
+		float: right;
+		margin: 32px;
 		display: ;
 	}
 	
@@ -130,6 +130,7 @@
 	
 	.copyright {
 		display: inline-flex;
+		align-items: center;
 	}
 
 
