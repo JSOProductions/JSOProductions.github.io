@@ -36,45 +36,71 @@
 				<a href="./products.html" class="">Products</a>
 				<a href="./origins.html" class="">History</a>
 				<a href="./gaming.html" class="">Gaming</a>
-				<a href="./Assessment.html" class="">Assessment</a>
-				<!--<a href="./settings.html" id="settings">Settings</a>-->
-				<img src="./src/Logo.png" alt="logo" class="hide">
+				<div class="dropdown">
+					<a class="dropbtn">Settings</a>
+					<div class="dropdown-content">
+						<center style="display: grid;">
+						<div>
+							<p style="display: inline-block;">light/dark</p>
+							<label class="switch" style="display: inline-block;">
+								<input aria-label="switch" type="checkbox" id="dark-mode-toggle" class="dark-mode-toggle">
+								<span class="slider round" />
+							</label>
+						</div>
+						<a href="#">Link 1</a>
+						<a href="#">Link 2</a>
+						<a href="./settings.html">See Full Settings</a>
+						</center>
+					</div>
+				</div>
 			</div>
 			</center>
 		</header>
 
 		<!-- Footer -->
 		<footer>
-			<br />
-			<section class="footerclass">
-				<aside>
-					<div style="float: left; padding: 15px;">
-						<center>
-							<h1>Light | Dark</h1>
-							<label class="switch">
-								<input aria-label="switch" type="checkbox" id="dark-mode-toggle" class="dark-mode-toggle">
-								<span class="slider round" />
-							</label>
-						</center>
+			<section>
+				<div class="footerCols">
+					<div class="col">
+						<p><b>Get In Touch</b></p>
+						<div class="linkContainer">
+							<a href="./contact.html" class="links">Contact Us</a>
+							<a href="https://github.com/JSOProductions/JSOProductions.github.io/issues/new/choose" class="links">Found an issue?</a>
+						</div>
 					</div>
-				</aside>
-				<article class="footerclass">
-					<center>
-						<h1>Copyright JackStudios</h1>
-						<p>2020 - 20<a href="./src/html/Hidden.html" style="color: white; text-decoration: none;">2</a>3</p>
-						<a href="//www.dmca.com/Protection/Status.aspx?ID=88616416-1b75-454d-a56e-e325129869db" title="DMCA.com Protection Status" class="dmca-badge"> 
-							<img src="https://images.dmca.com/Badges/dmca-badge-w100-5x1-09.png?ID=88616416-1b75-454d-a56e-e325129869db" alt="DMCA.com Protection Status" />
-						</a>
-						<script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
-					</center>
-				</article>
-				<aside class="footerclass" style="float: right;">
-					<div class="footerimg">
-						<img style="padding-top: 7px; padding-left: 5px;" alt="logo" src="./src/Logo.png" width="150px"/>
+					<div class="col">
+						<p><b>Socials</b></p>
+						<div class="linkContainer">
+							<a href="https://github.com/JSOProductions/JSOProductions.github.io" class="links">Github</a>
+							<a href="https://www.youtube.com/@JSOProductions" class="links">Youtube</a>
+							<a href="https://itch.io" class="links">Itch.io</a>
+						</div>
 					</div>
-				</aside>
+					<div class="col">
+						<div class="linkContainer">
+							<p><b>Site Links</b></p>
+							<a href="./index.html" class="links">Home</a>
+							<a href="./contact.html" class="links">Contact</a>
+							<a href="./products.html" class="links">Products</a>
+							<a href="./origins.html" class="links">History</a>
+							<a href="./gaming.html" class="links">Gaming</a>
+						</div>
+					</div>
+				</div>
+				
+				<div>
+					
+				</div>
 			</section>
-			<br />
+			<section class="">
+				<center class="copyright">
+					<p><i>Copyright <a href="./src/html/Hidden.html" style="text-decoration: none; color: white; font-size: 20px;">&#169</a> 2023 JSOProductions</i></p>
+					<a href="//www.dmca.com/Protection/Status.aspx?ID=88616416-1b75-454d-a56e-e325129869db" title="DMCA.com Protection Status" class="dmca-badge" style="margin-top: 10px; margin-left: 5px;"> 
+						<img src="https://images.dmca.com/Badges/dmca-badge-w100-5x1-09.png?ID=88616416-1b75-454d-a56e-e325129869db" alt="DMCA.com Protection Status" />
+					</a>
+					<script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
+				</center>
+			</section>
 		</footer>
 		<script src="./src/js/mode.js"></script>
 		<script src="./src/js/img.js"></script>
