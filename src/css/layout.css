@@ -98,7 +98,7 @@ body {
 
 @media screen and (min-width: 901px) {
 	div.hide {
-		display: block;
+		display: flex;
 	}
 	aside.show {
 		display: none;
