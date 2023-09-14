@@ -27,13 +27,10 @@
 	  text-decoration: none;
 	  font-size: 17px;
 	}
-	
-	.Nav img {
-		float: right;
-		width: 45px;
-		padding: 3px;
-	}
-	
+
+	#my-search-91807751 {
+		margin-top: 10px;
+	}	
 
 	/* Change the color of links on hover */
 	.Nav a:hover {
