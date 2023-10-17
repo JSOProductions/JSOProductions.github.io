@@ -21,9 +21,9 @@
 
 .centeredText {
   position: absolute;
-  top: 20%;
-  left: 80%;
-  transform: translate(-50%, -50%);
+  top: 215px;
+  left: 0px;
+  transform: translate(5%, 150%);
   font-size: 50px;
   text-decoration: none;
   color: white;
@@ -34,9 +34,9 @@
 }
 
 .landingImg {
-	width: 60%; 
-	object-fit: cover; 
-	height: 800px;
+	width: 100%; 
+	object-fit: ; 
+	height: fit-content;
 }
 
 @media screen and (max-width:900px) {

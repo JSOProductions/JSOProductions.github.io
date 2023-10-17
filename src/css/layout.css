@@ -1,5 +1,9 @@
 /** Layout **/
 
+* {
+	border-radius: 5px;
+}
+
 /** Article Code **/
 article.games {
 	float: right;
