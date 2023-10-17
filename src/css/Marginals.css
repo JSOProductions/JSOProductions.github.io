@@ -151,6 +151,11 @@
 		display: grid;
 	}
 	
+	.linkscont {
+		width: fit-content;
+		float: right;
+	}
+	
 	.footerCols {
 		display: ;
 	}
@@ -160,17 +165,25 @@
 		align-items: center;
 	}
 	
-	.newsletter {
-		float: left;
-		border: none;
-		border-radius: 4px;
-		padding: 8px;
+	/* Newsletter */
+	.newscont {
+		width: fit-content;
+		height: fit-content;
+		padding: 0px 25%;
+		margin-top: 64px;
 	}
 	
-	.newsFields {
-		
+	.newsletter {
+		padding: 8px;
+		border-radius: 8px;
+		border-style: none;
 	}
-
+	
+	.newsbut {
+		padding: 8px;
+		border-radius: 5px;
+		border-style: none;
+	}
 
 
 /** Slider **/
