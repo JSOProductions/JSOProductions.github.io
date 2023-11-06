@@ -19,12 +19,11 @@
 	display: inline-block;
 }
 
-.centeredText {
+.Title {
   position: absolute;
   top: 215px;
-  left: 0px;
-  transform: translate(5%, 150%);
-  font-size: 50px;
+  right: 128px;
+  font-size: 32px;
   text-decoration: none;
   color: white;
 }
